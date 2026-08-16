@@ -26,6 +26,21 @@ I build practical software at the intersection of **artificial intelligence, web
 
 `TypeScript` `JavaScript` `React` `Node.js` `Vite` `Express` `Tailwind CSS` `REST APIs` `AI Products` `Automation` `Responsive UI`
 
+## GitHub statistics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=uzme&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" height="165" alt="GitHub statistics" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=uzme&layout=compact&theme=transparent&hide_border=true" height="165" alt="Most used programming languages" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=20232A" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License" />
+  <img src="https://komarev.com/ghpvc/?username=uzme&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+</p>
+
 ## Development principles
 
 I value **useful products over unnecessary complexity**, secure handling of credentials, readable code, documented decisions, and interfaces that remain understandable for real users.

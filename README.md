@@ -23,6 +23,7 @@ I build practical software at the intersection of **artificial intelligence, web
 ## Selected repositories
 
 - [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) — an interactive educational product with a structured device catalogue and viewer experience.
+- [Developer Portfolio](https://github.com/uzme/developer-portfolio) — a focused overview of AI products, web applications, and automation work.
 - [Mafia Bot](https://github.com/uzme/mafia-bot) — a community-oriented bot project.
 - [UCserves](https://github.com/uzme/UCserves) — an earlier web application project.
 

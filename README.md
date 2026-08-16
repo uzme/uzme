@@ -16,6 +16,10 @@ I build practical software at the intersection of **artificial intelligence, web
 |---|---|---|
 | [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | Interactive learning platform for exploring 100 biotechnology devices. | TypeScript · React · Vite · Express · Tailwind CSS |
 
+[![BioLab CI](https://github.com/uzme/biolab-interactive-guide/actions/workflows/ci.yml/badge.svg)](https://github.com/uzme/biolab-interactive-guide/actions/workflows/ci.yml)
+
+![BioLab Interactive Guide preview](https://raw.githubusercontent.com/uzme/biolab-interactive-guide/main/docs/preview.webp)
+
 ## Selected repositories
 
 - [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) — an interactive educational product with a structured device catalogue and viewer experience.

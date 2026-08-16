@@ -1,5 +1,11 @@
 # Bahromjon Mengliyev
 
+<p align="center">
+  <img src="./assets/profile-banner.gif" alt="Bahromjon Mengliyev — AI products, web applications and automation" width="100%" />
+</p>
+
+<p align="center"><a href="./assets/profile-banner.svg">View the lightweight SVG banner fallback</a></p>
+
 ### Independent Developer · AI Products · Web Applications · Automation
 
 I build practical software at the intersection of **artificial intelligence, web applications, and automation**. My focus is turning complex ideas into useful products with clear interfaces, reliable integrations, and maintainable code.

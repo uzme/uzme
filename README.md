@@ -10,11 +10,13 @@
 
 I build practical software at the intersection of **artificial intelligence, web applications, and automation**. My focus is turning complex ideas into useful products with clear interfaces, reliable integrations, and maintainable code.
 
-## What I am working on
+## Current focus
 
-- Building interactive web products that make complex information easier to understand.
-- Exploring AI-assisted workflows, developer tools, and automation.
-- Improving product quality through thoughtful UX, clear documentation, and iterative delivery.
+- Shipping [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) as a structured biotechnology learning platform.
+- Building AI products with TypeScript, React, Supabase, RAG, and MCP integrations.
+- Improving deployment, testing, documentation, security, and repeatable automation workflows.
+
+Planning board: [Developer Roadmap](https://github.com/users/uzme/projects/1)
 
 ## Featured project
 

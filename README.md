@@ -31,9 +31,9 @@ Planning board: [Developer Roadmap](https://github.com/users/uzme/projects/1)
 ## Selected repositories
 
 - [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) — an interactive educational product with a structured device catalogue and viewer experience.
+- [Second Brain](https://github.com/uzme/second-brain) — an AI memory, knowledge base, RAG, chat, and controlled agent platform.
+- [Manus ChatGPT Bridge](https://github.com/uzme/manus-chatgpt-bridge) — a secure MCP and REST bridge for AI client integrations.
 - [Developer Portfolio](https://github.com/uzme/developer-portfolio) — a focused overview of AI products, web applications, and automation work.
-- [Mafia Bot](https://github.com/uzme/mafia-bot) — a community-oriented bot project.
-- [UCserves](https://github.com/uzme/UCserves) — an earlier web application project.
 
 ## Technical interests
 

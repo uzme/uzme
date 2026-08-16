@@ -39,11 +39,21 @@ Planning board: [Developer Roadmap](https://github.com/users/uzme/projects/1)
 
 `TypeScript` `JavaScript` `React` `Node.js` `Vite` `Express` `Tailwind CSS` `REST APIs` `AI Products` `Automation` `Responsive UI`
 
-## GitHub statistics
+## GitHub activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=uzme&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" height="165" alt="GitHub statistics" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=uzme&layout=compact&theme=transparent&hide_border=true" height="165" alt="Most used programming languages" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=uzme&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" height="165" alt="GitHub statistics" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=uzme&layout=compact&theme=transparent&hide_border=true&langs_count=8" height="165" alt="Most used programming languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=uzme&theme=transparent&hide_border=true&mode=weekly" height="165" alt="GitHub contribution streak" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/uzme">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=uzme&theme=github-compact&hide_border=true&area=true" width="96%" alt="GitHub activity graph" />
+  </a>
 </p>
 
 <p align="center">
@@ -52,6 +62,12 @@ Planning board: [Developer Roadmap](https://github.com/users/uzme/projects/1)
   <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" alt="Vite" />
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License" />
   <img src="https://komarev.com/ghpvc/?username=uzme&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+</p>
+
+### Contribution activity
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/uzme/uzme/output/github-contribution-grid-snake.svg" width="96%" alt="GitHub contribution snake animation" />
 </p>
 
 ## Development principles

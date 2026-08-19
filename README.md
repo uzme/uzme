@@ -42,13 +42,13 @@ Planning board: [Developer Roadmap](https://github.com/users/uzme/projects/1)
 ## GitHub activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=uzme&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" width="96%" alt="GitHub statistics" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=uzme&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" width="96%" alt="GitHub statistics" />
 </p>
 
 ## Languages
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=uzme&layout=compact&theme=transparent&hide_border=true&langs_count=8" width="70%" alt="Most used programming languages" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=uzme&layout=compact&theme=transparent&hide_border=true&langs_count=8" width="70%" alt="Most used programming languages" />
 </p>
 
 <p align="center">

@@ -76,7 +76,7 @@ I value **useful products over unnecessary complexity**, secure handling of cred
 
 ## Contact
 
-For collaboration, product ideas, or technical conversations, connect with me on [Telegram](https://t.me/MengliyevBahrom).
+For collaboration, product ideas, or technical conversations, connect with me on [Telegram](https://t.me/MengliyevBahrom), [Instagram](https://www.instagram.com/Mengliyev__Bahrom/), or [X](https://x.com/BioUZB).
 
 ---
 

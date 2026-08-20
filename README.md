@@ -33,8 +33,8 @@ Planning board: [Developer Roadmap](https://github.com/users/uzme/projects/1)
 - [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) — an interactive educational product with a structured device catalogue and viewer experience.
 - [Second Brain](https://github.com/uzme/second-brain) — an AI memory, knowledge base, RAG, chat, and controlled agent platform.
 - [Manus ChatGPT Bridge](https://github.com/uzme/manus-chatgpt-bridge) — a secure MCP and REST bridge for AI client integrations.
-- [Developer Portfolio](https://github.com/uzme/developer-portfolio) — a focused overview of AI products, web applications, and automation work, including a Python webhook validation utility.
-- [Python Webhook Validator](https://github.com/uzme/developer-portfolio/tree/main/python_tools/webhook_validator) — a dependency-free Python utility for secure GitHub webhook signature validation.
+- [Developer Portfolio](https://github.com/uzme/developer-portfolio) — a focused overview of AI products, web applications, and automation work.
+- [Portfolio Automation Toolkit](https://github.com/uzme/developer-portfolio/tree/main/python_tools) — Python utilities for webhook security, repository audits, API health, changelogs, dependency reports, project statistics, image optimization, environment checks, and AI input validation.
 
 ## Technical interests
 

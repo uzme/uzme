@@ -42,23 +42,21 @@ Planning board: [Developer Roadmap](https://github.com/users/uzme/projects/1)
 ## GitHub activity
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=uzme&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" width="96%" alt="GitHub statistics" />
+  <img src="./profile/stats.svg" width="96%" alt="GitHub statistics" />
 </p>
 
 ## Languages
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=uzme&layout=compact&theme=transparent&hide_border=true&langs_count=8" width="70%" alt="Most used programming languages" />
+  <img src="./profile/languages.svg" width="96%" alt="Most used programming languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=uzme&theme=transparent&hide_border=true&mode=weekly" width="96%" alt="GitHub contribution streak" />
+  <img src="./profile/streak.svg" width="96%" alt="GitHub contribution streak" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/uzme">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=uzme&theme=github-compact&hide_border=true&area=true" width="96%" alt="GitHub activity graph" />
-  </a>
+  <img src="./profile/activity.svg" width="96%" alt="GitHub activity graph" />
 </p>
 
 <p align="center">

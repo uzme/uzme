@@ -33,11 +33,12 @@ Planning board: [Developer Roadmap](https://github.com/users/uzme/projects/1)
 - [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) — an interactive educational product with a structured device catalogue and viewer experience.
 - [Second Brain](https://github.com/uzme/second-brain) — an AI memory, knowledge base, RAG, chat, and controlled agent platform.
 - [Manus ChatGPT Bridge](https://github.com/uzme/manus-chatgpt-bridge) — a secure MCP and REST bridge for AI client integrations.
-- [Developer Portfolio](https://github.com/uzme/developer-portfolio) — a focused overview of AI products, web applications, and automation work.
+- [Developer Portfolio](https://github.com/uzme/developer-portfolio) — a focused overview of AI products, web applications, and automation work, including a Python webhook validation utility.
+- [Python Webhook Validator](https://github.com/uzme/developer-portfolio/tree/main/python_tools/webhook_validator) — a dependency-free Python utility for secure GitHub webhook signature validation.
 
 ## Technical interests
 
-`TypeScript` `JavaScript` `React` `Node.js` `Vite` `Express` `Tailwind CSS` `REST APIs` `AI Products` `Automation` `Responsive UI`
+`TypeScript` `Python` `JavaScript` `React` `Node.js` `Vite` `Express` `Tailwind CSS` `REST APIs` `AI Products` `Automation` `Responsive UI`
 
 ## GitHub activity
 
@@ -63,6 +64,7 @@ Planning board: [Developer Roadmap](https://github.com/users/uzme/projects/1)
   <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=20232A" alt="React" />
   <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License" />
   <img src="https://komarev.com/ghpvc/?username=uzme&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
 </p>

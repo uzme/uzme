@@ -6,7 +6,6 @@ const flagshipRepositories = [
   "bahromjon-portfolio",
   "biolab-interactive-guide",
   "developer-portfolio",
-  "second-brain",
 ];
 const reportUrl = `https://github.com/${owner}/${owner}/blob/main/profile/automation-report.md`;
 

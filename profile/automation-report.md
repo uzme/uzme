@@ -1,6 +1,6 @@
 # GitHub Automation Report
 
-> Oxirgi avtomatik yangilanish: 2026-08-21T17:59:05.180Z (UTC).
+> Oxirgi avtomatik yangilanish: 2026-08-21T18:03:38.479Z (UTC).
 
 Bu fayl GitHub Actions orqali har kuni yangilanadi. Unda faqat public loyiha holati jamlanadi; tokenlar, secretlar yoki shaxsiy ma’lumotlar yozilmaydi.
 
@@ -16,14 +16,17 @@ Bu fayl GitHub Actions orqali har kuni yangilanadi. Unda faqat public loyiha hol
 
 | Repository | So‘nggi workflow | Holat | Stars | Dependabot PR |
 |---|---|---|---:|---:|
-| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [CodeQL Security Scan](https://github.com/uzme/bahromjon-portfolio/actions/runs/32455048520) | PASS — success | 0 | 7 |
-| [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [CI](https://github.com/uzme/biolab-interactive-guide/actions/runs/32486847523) | PASS — success | 0 | 9 |
-| [developer-portfolio](https://github.com/uzme/developer-portfolio) | [CodeQL Security Scan](https://github.com/uzme/developer-portfolio/actions/runs/32451954694) | PASS — success | 0 | 0 |
-| [second-brain](https://github.com/uzme/second-brain) | [CI](https://github.com/uzme/second-brain/actions/runs/32466729234) | CHECK — failure | 0 | 7 |
+| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [Project Telegram Notifications](https://github.com/uzme/bahromjon-portfolio/actions/runs/32511291692) | PENDING — skipped | 0 | 7 |
+| [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [Project Telegram Notifications](https://github.com/uzme/biolab-interactive-guide/actions/runs/32511273230) | PENDING — skipped | 0 | 9 |
+| [developer-portfolio](https://github.com/uzme/developer-portfolio) | [Project Telegram Notifications](https://github.com/uzme/developer-portfolio/actions/runs/32511273041) | PENDING — skipped | 0 | 0 |
+| [second-brain](https://github.com/uzme/second-brain) | [Project Telegram Notifications](https://github.com/uzme/second-brain/actions/runs/32511311280) | PASS — success | 0 | 7 |
 
 ## Oxirgi yutuqlar
 
-- Hozircha yangi merge yoki release qayd etilmadi.
+- PR merged: [bahromjon-portfolio #11](https://github.com/uzme/bahromjon-portfolio/pull/11) — ci: add project Telegram notifications
+- PR merged: [biolab-interactive-guide #16](https://github.com/uzme/biolab-interactive-guide/pull/16) — ci: add project Telegram notifications
+- PR merged: [developer-portfolio #1](https://github.com/uzme/developer-portfolio/pull/1) — ci: add project Telegram notifications
+- PR merged: [second-brain #15](https://github.com/uzme/second-brain/pull/15) — ci: restore checks and add Telegram notifications
 
 ## Automation qamrovi
 

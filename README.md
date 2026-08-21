@@ -12,6 +12,7 @@ I build practical software at the intersection of **artificial intelligence, web
 
 ## Current focus
 
+- Publishing [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) as an editorial home for product work, engineering standards, and selected case studies.
 - Shipping [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) as a structured biotechnology learning platform.
 - Building AI products with TypeScript, React, Supabase, RAG, and MCP integrations.
 - Improving deployment, testing, documentation, security, and repeatable automation workflows.
@@ -23,6 +24,7 @@ Planning board: [Developer Roadmap](https://github.com/users/uzme/projects/1)
 | Project | Description | Stack |
 |---|---|---|
 | [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | Interactive learning platform for exploring 100 biotechnology devices. | TypeScript · React · Vite · Express · Tailwind CSS |
+| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | Editorial developer portfolio built around product evidence, engineering standards, and selected work. | TypeScript · React · Vite · Tailwind CSS |
 
 [![BioLab CI](https://github.com/uzme/biolab-interactive-guide/actions/workflows/ci.yml/badge.svg)](https://github.com/uzme/biolab-interactive-guide/actions/workflows/ci.yml)
 
@@ -30,15 +32,16 @@ Planning board: [Developer Roadmap](https://github.com/users/uzme/projects/1)
 
 ## Selected repositories
 
+- [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) — a public Signal Ledger portfolio for AI products, web applications, secure automation, and product case studies.
 - [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) — an interactive educational product with a structured device catalogue and viewer experience.
-- [Second Brain](https://github.com/uzme/second-brain) — an AI memory, knowledge base, RAG, chat, and controlled agent platform.
-- [Manus ChatGPT Bridge](https://github.com/uzme/manus-chatgpt-bridge) — a secure MCP and REST bridge for AI client integrations.
+- **Second Brain** *(private project)* — an AI memory, knowledge base, RAG, chat, and controlled agent platform.
+- **Manus ChatGPT Bridge** *(private project)* — a secure MCP and REST bridge for AI client integrations.
 - [Developer Portfolio](https://github.com/uzme/developer-portfolio) — a focused overview of AI products, web applications, and automation work.
 - [Portfolio Automation Toolkit](https://github.com/uzme/developer-portfolio/tree/main/python_tools) — Python utilities for webhook security, repository audits, API health, changelogs, dependency reports, project statistics, image optimization, environment checks, and AI input validation.
 
 ## Technical interests
 
-`TypeScript` `Python` `JavaScript` `React` `Node.js` `Vite` `Express` `Tailwind CSS` `REST APIs` `AI Products` `Automation` `Responsive UI`
+`TypeScript` `Python` `JavaScript` `React` `Node.js` `Vite` `Express` `Tailwind CSS` `REST APIs` `AI Products` `Automation` `Security Engineering` `Responsive UI`
 
 ## GitHub activity
 

@@ -1,0 +1,32 @@
+name: Send External Notification
+
+on:
+  workflow_dispatch:
+    inputs:
+      message:
+        description: Telegram orqali yuboriladigan qisqa xabar
+        required: true
+        default: "GitHub automation tizimi faol."
+        type: string
+
+permissions: {}
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Send optional Telegram message
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MESSAGE: ${{ inputs.message }}
+        run: |
+          if [ -z "${TELEGRAM_BOT_TOKEN}" ] || [ -z "${TELEGRAM_CHAT_ID}" ]; then
+            echo "::notice::Telegram secrets are not configured; no external message was sent."
+            exit 0
+          fi
+          curl --fail --silent --show-error --retry 3 \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=${MESSAGE}" \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage"

@@ -13,6 +13,9 @@ jobs:
   report:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
     steps:
       - name: Checkout profile repository
         uses: actions/checkout@v4
@@ -36,10 +39,7 @@ jobs:
           git commit -m "chore(profile): refresh automation report"
           git push
       - name: Send optional Telegram summary
-        if: ${{ secrets.TELEGRAM_BOT_TOKEN != '' && secrets.TELEGRAM_CHAT_ID != '' }}
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        if: ${{ env.TELEGRAM_BOT_TOKEN != '' && env.TELEGRAM_CHAT_ID != '' }}
         run: |
           curl --fail --silent --show-error --retry 3 \
             --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \

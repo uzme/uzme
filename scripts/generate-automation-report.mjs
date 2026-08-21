@@ -51,12 +51,12 @@ const repositories = await Promise.all(flagshipRepositories.map(async (name) => 
     github(`/repos/${owner}/${name}/actions/runs?per_page=1`),
     github(`/repos/${owner}/${name}/pulls?state=closed&sort=updated&direction=desc&per_page=30`),
     github(`/repos/${owner}/${name}/pulls?state=open&sort=updated&direction=desc&per_page=100`),
-    github(`/repos/${owner}/${name}/releases?per_page=20`),
+    github(`/repos/${owner}/${name}/releases?per_page=20`, { optional: true }),
   ]);
 
   const latestRun = runs.workflow_runs?.[0];
   const mergedPulls = pulls.filter((pull) => pull.merged_at && pull.merged_at > since);
-  const recentReleases = releases.filter((release) => release.published_at && release.published_at > since);
+  const recentReleases = (releases || []).filter((release) => release.published_at && release.published_at > since);
 
   return {
     name,

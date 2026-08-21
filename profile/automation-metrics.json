@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-21T18:03:38.479Z",
+  "generatedAt": "2026-08-21T18:08:02.499Z",
   "followers": 2,
   "totalStars": 0,
-  "totalDependabotPulls": 23,
+  "totalDependabotPulls": 16,
   "repositories": {
     "bahromjon-portfolio": {
       "stars": 0,
@@ -18,11 +18,6 @@
       "stars": 0,
       "forks": 0,
       "dependabotPulls": 0
-    },
-    "second-brain": {
-      "stars": 0,
-      "forks": 0,
-      "dependabotPulls": 7
     }
   }
 }

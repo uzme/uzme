@@ -1,13 +1,14 @@
-name: Weekly Automation Report
+name: GitHub Automation Digest
 
 on:
   schedule:
-    - cron: "15 8 * * 1"
+    - cron: "15 8 * * *"
   workflow_dispatch:
 
 permissions:
   actions: read
   contents: write
+  security-events: read
 
 jobs:
   report:
@@ -29,19 +30,26 @@ jobs:
         run: node scripts/generate-automation-report.mjs
       - name: Commit report only when it changes
         run: |
-          if git diff --quiet -- profile/automation-report.md; then
+          if git diff --quiet -- profile/automation-report.md profile/achievement-log.md profile/automation-metrics.json profile/telegram-digest.txt; then
             echo "Automation report has no changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/automation-report.md
+          git add profile/automation-report.md profile/achievement-log.md profile/automation-metrics.json profile/telegram-digest.txt
           git commit -m "chore(profile): refresh automation report"
           git push
       - name: Send optional Telegram summary
-        if: ${{ env.TELEGRAM_BOT_TOKEN != '' && env.TELEGRAM_CHAT_ID != '' }}
         run: |
+          if [ -z "${TELEGRAM_BOT_TOKEN}" ] || [ -z "${TELEGRAM_CHAT_ID}" ]; then
+            echo "::notice::Telegram secrets are not configured; no external message was sent."
+            exit 0
+          fi
+          if [ ! -s profile/telegram-digest.txt ]; then
+            echo "No digest-worthy change detected; no external message was sent."
+            exit 0
+          fi
           curl --fail --silent --show-error --retry 3 \
             --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
-            --data-urlencode "text=GitHub Automation: @uzme flagship repository reporti yangilandi. https://github.com/uzme/uzme/blob/main/profile/automation-report.md" \
+            --data-urlencode "text@profile/telegram-digest.txt" \
             "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage"

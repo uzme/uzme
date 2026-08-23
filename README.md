@@ -8,40 +8,51 @@
 
 ### Independent Developer · AI Products · Web Applications · Automation
 
-I build practical software at the intersection of **artificial intelligence, web applications, and automation**. My focus is turning complex ideas into useful products with clear interfaces, reliable integrations, and maintainable code.
+I build practical software at the intersection of **artificial intelligence, web applications, and automation**. My work focuses on turning complex ideas into useful products with clear interfaces, reliable integrations, repeatable delivery, and maintainable code.
 
-## Current focus
+> **Current direction:** product hardening for BioLab, a secure Phase 1 foundation for Second Brain, and API validation work for MCP Bridge. Follow the real work on the [Developer Roadmap](https://github.com/users/uzme/projects/1).
 
-- Publishing [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) as an editorial home for product work, engineering standards, and selected case studies.
-- Shipping [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) as a structured biotechnology learning platform.
-- Building AI products with TypeScript, React, Supabase, RAG, and MCP integrations.
-- Improving deployment, testing, documentation, security, and repeatable automation workflows.
+## Now building
 
-Planning board: [Developer Roadmap](https://github.com/users/uzme/projects/1)
-
-## Featured project
-
-| Project | Description | Stack |
+| Workstream | Current milestone | Delivery signal |
 |---|---|---|
-| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | Interactive learning platform for exploring 100 biotechnology devices. | TypeScript · React · Vite · Express · Tailwind CSS |
-| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | Editorial developer portfolio built around product evidence, engineering standards, and selected work. | TypeScript · React · Vite · Tailwind CSS |
+| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | Catalogue, learning flow, testing, and deployment hardening | [GitHub Pages documentation](https://uzme.github.io/biolab-interactive-guide/) · [Repository](https://github.com/uzme/biolab-interactive-guide) |
+| **Second Brain** *(private)* | Phase 1 foundation, Supabase integration, and safe knowledge capture/retrieval | [Acceptance criteria](https://github.com/users/uzme/projects/1) · CI monitored |
+| **MCP Bridge** *(private)* | API validation, secure error handling, and deployment readiness | [Acceptance criteria](https://github.com/users/uzme/projects/1) · delivery hardening |
 
-[![BioLab CI](https://github.com/uzme/biolab-interactive-guide/actions/workflows/ci.yml/badge.svg)](https://github.com/uzme/biolab-interactive-guide/actions/workflows/ci.yml)
+## Flagship products
 
-![BioLab Interactive Guide preview](https://raw.githubusercontent.com/uzme/biolab-interactive-guide/main/docs/preview.webp)
+| Product | What it demonstrates | Proof of work |
+|---|---|---|
+| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | An interactive educational product for exploring 100 biotechnology devices. | [Pages docs](https://uzme.github.io/biolab-interactive-guide/) · [Repository](https://github.com/uzme/biolab-interactive-guide) · [CI](https://github.com/uzme/biolab-interactive-guide/actions/workflows/ci.yml) · [CodeQL](https://github.com/uzme/biolab-interactive-guide/actions/workflows/codeql.yml) |
+| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | An editorial developer portfolio centred on product evidence, engineering standards, and selected work. | [v1.0.0 release](https://github.com/uzme/bahromjon-portfolio/releases/tag/v1.0.0) · [CI](https://github.com/uzme/bahromjon-portfolio/actions/workflows/ci.yml) · [CodeQL](https://github.com/uzme/bahromjon-portfolio/actions/workflows/codeql.yml) |
+| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | A focused public overview of AI products, web applications, and automation work. | [CI](https://github.com/uzme/developer-portfolio/actions/workflows/ci.yml) · [CodeQL](https://github.com/uzme/developer-portfolio/actions/workflows/codeql.yml) · [Python toolkit](https://github.com/uzme/developer-portfolio/tree/main/python_tools) |
 
-## Selected repositories
+## Proof of work
 
-- [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) — a public Signal Ledger portfolio for AI products, web applications, secure automation, and product case studies.
-- [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) — an interactive educational product with a structured device catalogue and viewer experience.
-- **Second Brain** *(private project)* — an AI memory, knowledge base, RAG, chat, and controlled agent platform.
-- **Manus ChatGPT Bridge** *(private project)* — a secure MCP and REST bridge for AI client integrations.
-- [Developer Portfolio](https://github.com/uzme/developer-portfolio) — a focused overview of AI products, web applications, and automation work.
-- [Portfolio Automation Toolkit](https://github.com/uzme/developer-portfolio/tree/main/python_tools) — Python utilities for webhook security, repository audits, API health, changelogs, dependency reports, project statistics, image optimization, environment checks, and AI input validation.
+I treat delivery as more than a repository push: a feature should have a visible product outcome, a documented decision, and a repeatable quality signal. BioLab has a public GitHub Pages documentation hub; the portfolio has a published `v1.0.0` release; and the active product work is tracked in one public [Developer Roadmap](https://github.com/users/uzme/projects/1).
+
+<p align="center">
+  <a href="https://github.com/uzme/bahromjon-portfolio/releases/tag/v1.0.0"><img src="https://img.shields.io/badge/Portfolio-v1.0.0%20released-0e75b6?style=flat-square" alt="Portfolio v1.0.0 release" /></a>
+  <a href="https://uzme.github.io/biolab-interactive-guide/"><img src="https://img.shields.io/badge/BioLab-Pages%20docs-0366d6?style=flat-square" alt="BioLab Pages documentation" /></a>
+  <a href="https://github.com/users/uzme/projects/1"><img src="https://img.shields.io/badge/Delivery-Developer%20Roadmap-6f42c1?style=flat-square" alt="Developer Roadmap" /></a>
+</p>
+
+## Engineering signals
+
+The public flagship repositories use CI, CodeQL, dependency review or audit where applicable, scheduled health monitoring, and reviewed releases. These links surface the current workflow state instead of claiming static quality.
+
+<p align="center">
+  <a href="https://github.com/uzme/bahromjon-portfolio/actions/workflows/ci.yml"><img src="https://github.com/uzme/bahromjon-portfolio/actions/workflows/ci.yml/badge.svg" alt="Portfolio CI" /></a>
+  <a href="https://github.com/uzme/bahromjon-portfolio/actions/workflows/codeql.yml"><img src="https://github.com/uzme/bahromjon-portfolio/actions/workflows/codeql.yml/badge.svg" alt="Portfolio CodeQL" /></a>
+  <a href="https://github.com/uzme/biolab-interactive-guide/actions/workflows/ci.yml"><img src="https://github.com/uzme/biolab-interactive-guide/actions/workflows/ci.yml/badge.svg" alt="BioLab CI" /></a>
+  <a href="https://github.com/uzme/biolab-interactive-guide/actions/workflows/codeql.yml"><img src="https://github.com/uzme/biolab-interactive-guide/actions/workflows/codeql.yml/badge.svg" alt="BioLab CodeQL" /></a>
+  <a href="https://github.com/uzme/developer-portfolio/actions/workflows/ci.yml"><img src="https://github.com/uzme/developer-portfolio/actions/workflows/ci.yml/badge.svg" alt="Developer Portfolio CI" /></a>
+</p>
 
 ## Technical interests
 
-`TypeScript` `Python` `JavaScript` `React` `Node.js` `Vite` `Express` `Tailwind CSS` `REST APIs` `AI Products` `Automation` `Security Engineering` `Responsive UI`
+`TypeScript` `Python` `JavaScript` `React` `Node.js` `Vite` `Express` `Tailwind CSS` `Supabase` `REST APIs` `AI Products` `Automation` `Security Engineering` `Responsive UI`
 
 ## GitHub activity
 
@@ -68,7 +79,6 @@ Planning board: [Developer Roadmap](https://github.com/users/uzme/projects/1)
   <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=20232A" alt="React" />
   <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" alt="Vite" />
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License" />
   <img src="https://komarev.com/ghpvc/?username=uzme&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
 </p>
 

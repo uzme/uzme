@@ -38,6 +38,16 @@ I treat delivery as more than a repository push: a feature should have a visible
   <a href="https://github.com/users/uzme/projects/1"><img src="https://img.shields.io/badge/Delivery-Developer%20Roadmap-6f42c1?style=flat-square" alt="Developer Roadmap" /></a>
 </p>
 
+## Building in public
+
+The profile now records visible product work through three small, evidence-based documents. The dashboard shows the current public engineering pulse; the weekly log records shipped public work; and Build Notes preserve the reasoning behind durable technical decisions.
+
+| Signal | Purpose | Update style |
+|---|---|---|
+| [Engineering Dashboard](./profile/engineering-dashboard.md) | Current public flagship workflow and pull request health. | Daily automated refresh. |
+| [Weekly Build Log](./profile/weekly-build-log.md) | Public merges, releases, and workflow pulse from the last seven days. | Every Monday and on demand. |
+| [Build Notes](./docs/BUILD_NOTES.md) | Product and engineering decisions with context, evidence, and trade-offs. | Added when a durable decision is made. |
+
 ## Engineering signals
 
 The public flagship repositories use CI, CodeQL, dependency review or audit where applicable, scheduled health monitoring, and reviewed releases. These links surface the current workflow state instead of claiming static quality.

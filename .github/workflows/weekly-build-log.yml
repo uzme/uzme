@@ -1,0 +1,38 @@
+name: Weekly Build Log
+
+on:
+  schedule:
+    - cron: "45 8 * * 1"
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: write
+  pull-requests: read
+
+jobs:
+  build-log:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v7
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Generate weekly public build log
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/generate-weekly-build-log.mjs
+      - name: Commit log only when evidence changes
+        run: |
+          if git diff --quiet -- profile/weekly-build-log.md profile/weekly-build-log-metrics.json; then
+            echo "Weekly Build Log has no changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/weekly-build-log.md profile/weekly-build-log-metrics.json
+          git commit -m "chore(profile): refresh weekly build log"
+          git push

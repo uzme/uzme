@@ -47,13 +47,14 @@ const profile = await github(`/users/${owner}`);
 const repositories = await Promise.all(flagshipRepositories.map(async (name) => {
   const [repository, runs, pulls, openPulls, releases] = await Promise.all([
     github(`/repos/${owner}/${name}`),
-    github(`/repos/${owner}/${name}/actions/runs?per_page=1`),
+    github(`/repos/${owner}/${name}/actions/runs?per_page=20`),
     github(`/repos/${owner}/${name}/pulls?state=closed&sort=updated&direction=desc&per_page=30`),
     github(`/repos/${owner}/${name}/pulls?state=open&sort=updated&direction=desc&per_page=100`),
     github(`/repos/${owner}/${name}/releases?per_page=20`, { optional: true }),
   ]);
 
-  const latestRun = runs.workflow_runs?.[0];
+  const workflowRuns = runs.workflow_runs || [];
+  const latestRun = workflowRuns.find((run) => run.conclusion !== "skipped") || workflowRuns[0];
   const mergedPulls = pulls.filter((pull) => pull.merged_at && pull.merged_at > since);
   const recentReleases = (releases || []).filter((release) => release.published_at && release.published_at > since);
 
@@ -68,6 +69,7 @@ const repositories = await Promise.all(flagshipRepositories.map(async (name) => 
     workflow: latestRun?.name || "Workflow hali ishga tushmagan",
     conclusion: latestRun?.conclusion || latestRun?.status || "Noma’lum",
     runUrl: latestRun?.html_url || `https://github.com/${owner}/${name}/actions`,
+    openPulls: openPulls.length,
     dependabotPulls: openPulls.filter((pull) => pull.user?.login?.startsWith("dependabot")).length,
     mergedPulls,
     recentReleases,
@@ -136,6 +138,32 @@ const report = [
   "",
 ];
 
+const engineeringDashboard = [
+  "# Engineering Dashboard",
+  "",
+  `> Oxirgi yangilanish: ${metrics.generatedAt} (UTC).`,
+  "",
+  "Bu dashboard faqat public flagship repository’larning real GitHub signalidan yaratiladi. Private loyiha tafsilotlari, tokenlar va secretlar ko‘rsatilmaydi.",
+  "",
+  "## Public flagship health",
+  "",
+  "| Repository | So‘nggi workflow | Holat | Ochiq PR | Dependabot PR |",
+  "|---|---|---|---:|---:|",
+  ...repositories.map((repository) => `| [${repository.name}](https://github.com/${owner}/${repository.name}) | [${repository.workflow}](${repository.runUrl}) | ${statusIcon(repository.conclusion)} — ${repository.conclusion} | ${repository.openPulls} | ${repository.dependabotPulls} |`),
+  "",
+  "## Delivery evidence",
+  "",
+  `- Recent public merges since the prior dashboard update: **${recentMergedPulls.length}**.`,
+  `- Recent public releases since the prior dashboard update: **${recentReleases.length}**.`,
+  "- Weekly delivery history: [Weekly Build Log](./weekly-build-log.md).",
+  "- Product priorities and acceptance criteria: [Developer Roadmap](https://github.com/users/uzme/projects/1).",
+  "",
+  "## Quality system",
+  "",
+  "Public flagship repositories use CI, CodeQL, dependency review or audit where applicable, and scheduled repository health monitoring. Workflow links above remain the source of truth for the current state.",
+  "",
+];
+
 const isMonday = now.getUTCDay() === 1;
 const hasMetricChange = [followerDelta, starDelta, dependabotDelta].some((value) => value !== null && value !== 0);
 const shouldNotify = isMonday || hasMetricChange || recentMergedPulls.length > 0 || recentReleases.length > 0;
@@ -145,6 +173,7 @@ const digest = shouldNotify
 
 await Promise.all([
   writeFile("profile/automation-report.md", report.join("\n"), "utf8"),
+  writeFile("profile/engineering-dashboard.md", engineeringDashboard.join("\n"), "utf8"),
   writeFile("profile/achievement-log.md", `${["# GitHub Yutuqlar Jurnali", "", ...achievementLogEntries].join("\n")}\n`, "utf8"),
   writeFile("profile/automation-metrics.json", `${JSON.stringify(metrics, null, 2)}\n`, "utf8"),
   writeFile("profile/telegram-digest.txt", digest ? `${digest}\n` : "", "utf8"),

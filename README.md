@@ -16,7 +16,7 @@ I build practical software at the intersection of **artificial intelligence, web
 
 | Workstream | Current milestone | Delivery signal |
 |---|---|---|
-| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | Catalogue, learning flow, testing, and deployment hardening | [Live product](https://biolab-interactive-guide.vercel.app) · [Documentation](https://uzme.github.io/biolab-interactive-guide/) |
+| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | Catalogue, learning flow, testing, and deployment hardening | [GitHub Pages documentation](https://uzme.github.io/biolab-interactive-guide/) · [Repository](https://github.com/uzme/biolab-interactive-guide) |
 | **Second Brain** *(private)* | Phase 1 foundation, Supabase integration, and safe knowledge capture/retrieval | [Acceptance criteria](https://github.com/users/uzme/projects/1) · CI monitored |
 | **MCP Bridge** *(private)* | API validation, secure error handling, and deployment readiness | [Acceptance criteria](https://github.com/users/uzme/projects/1) · delivery hardening |
 
@@ -24,17 +24,16 @@ I build practical software at the intersection of **artificial intelligence, web
 
 | Product | What it demonstrates | Proof of work |
 |---|---|---|
-| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | An interactive educational product for exploring 100 biotechnology devices. | [Live demo](https://biolab-interactive-guide.vercel.app) · [Pages docs](https://uzme.github.io/biolab-interactive-guide/) · [CI](https://github.com/uzme/biolab-interactive-guide/actions/workflows/ci.yml) · [CodeQL](https://github.com/uzme/biolab-interactive-guide/actions/workflows/codeql.yml) |
+| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | An interactive educational product for exploring 100 biotechnology devices. | [Pages docs](https://uzme.github.io/biolab-interactive-guide/) · [Repository](https://github.com/uzme/biolab-interactive-guide) · [CI](https://github.com/uzme/biolab-interactive-guide/actions/workflows/ci.yml) · [CodeQL](https://github.com/uzme/biolab-interactive-guide/actions/workflows/codeql.yml) |
 | [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | An editorial developer portfolio centred on product evidence, engineering standards, and selected work. | [v1.0.0 release](https://github.com/uzme/bahromjon-portfolio/releases/tag/v1.0.0) · [CI](https://github.com/uzme/bahromjon-portfolio/actions/workflows/ci.yml) · [CodeQL](https://github.com/uzme/bahromjon-portfolio/actions/workflows/codeql.yml) |
 | [Developer Portfolio](https://github.com/uzme/developer-portfolio) | A focused public overview of AI products, web applications, and automation work. | [CI](https://github.com/uzme/developer-portfolio/actions/workflows/ci.yml) · [CodeQL](https://github.com/uzme/developer-portfolio/actions/workflows/codeql.yml) · [Python toolkit](https://github.com/uzme/developer-portfolio/tree/main/python_tools) |
 
 ## Proof of work
 
-I treat delivery as more than a repository push: a feature should have a visible product outcome, a documented decision, and a repeatable quality signal. BioLab has a live application and a GitHub Pages documentation hub; the portfolio has a published `v1.0.0` release; and the active product work is tracked in one public [Developer Roadmap](https://github.com/users/uzme/projects/1).
+I treat delivery as more than a repository push: a feature should have a visible product outcome, a documented decision, and a repeatable quality signal. BioLab has a public GitHub Pages documentation hub; the portfolio has a published `v1.0.0` release; and the active product work is tracked in one public [Developer Roadmap](https://github.com/users/uzme/projects/1).
 
 <p align="center">
   <a href="https://github.com/uzme/bahromjon-portfolio/releases/tag/v1.0.0"><img src="https://img.shields.io/badge/Portfolio-v1.0.0%20released-0e75b6?style=flat-square" alt="Portfolio v1.0.0 release" /></a>
-  <a href="https://biolab-interactive-guide.vercel.app"><img src="https://img.shields.io/badge/BioLab-live%20demo-2e7d32?style=flat-square" alt="BioLab live demo" /></a>
   <a href="https://uzme.github.io/biolab-interactive-guide/"><img src="https://img.shields.io/badge/BioLab-Pages%20docs-0366d6?style=flat-square" alt="BioLab Pages documentation" /></a>
   <a href="https://github.com/users/uzme/projects/1"><img src="https://img.shields.io/badge/Delivery-Developer%20Roadmap-6f42c1?style=flat-square" alt="Developer Roadmap" /></a>
 </p>

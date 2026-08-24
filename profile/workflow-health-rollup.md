@@ -11,9 +11,9 @@ Joriy health jadvali har repository’ning eng so‘nggi mazmunli workflow holat
 
 | Repository | Latest meaningful workflow | Current status | Recent attention |
 |---|---|---|---:|
-| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | [CodeQL Security Scan](https://github.com/uzme/bahromjon-portfolio/actions/runs/32686579612) | PASS | 2 |
-| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | [CodeQL](https://github.com/uzme/biolab-interactive-guide/actions/runs/32689087749) | PASS | 3 |
-| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | [CodeQL Security Scan](https://github.com/uzme/developer-portfolio/actions/runs/32686593744) | PASS | 0 |
+| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/32700895920) | PASS | 2 |
+| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | [CI](https://github.com/uzme/biolab-interactive-guide/actions/runs/32702234738) | PASS | 3 |
+| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/32701992833) | PASS | 0 |
 
 ## Attention detail
 

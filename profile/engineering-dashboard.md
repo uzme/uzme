@@ -1,6 +1,6 @@
 # Engineering Dashboard
 
-> Oxirgi yangilanish: 2026-08-23T19:15:05.877Z (UTC).
+> Oxirgi yangilanish: 2026-08-24T05:20:26.865Z (UTC).
 
 Bu dashboard faqat public flagship repository’larning real GitHub signalidan yaratiladi. Private loyiha tafsilotlari, tokenlar va secretlar ko‘rsatilmaydi.
 
@@ -8,15 +8,18 @@ Bu dashboard faqat public flagship repository’larning real GitHub signalidan y
 
 | Repository | So‘nggi workflow | Holat | Ochiq PR | Dependabot PR |
 |---|---|---|---:|---:|
-| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/32657493610) | PASS — success | 0 | 0 |
-| [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [Repository Health Monitoring](https://github.com/uzme/biolab-interactive-guide/actions/runs/32657497528) | PASS — success | 0 | 0 |
-| [developer-portfolio](https://github.com/uzme/developer-portfolio) | [CodeQL Security Scan](https://github.com/uzme/developer-portfolio/actions/runs/32657660333) | PASS — success | 0 | 0 |
+| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [CodeQL Security Scan](https://github.com/uzme/bahromjon-portfolio/actions/runs/32686579612) | PASS — success | 0 | 0 |
+| [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [CodeQL](https://github.com/uzme/biolab-interactive-guide/actions/runs/32689087749) | PASS — success | 0 | 0 |
+| [developer-portfolio](https://github.com/uzme/developer-portfolio) | [CodeQL Security Scan](https://github.com/uzme/developer-portfolio/actions/runs/32686593744) | PASS — success | 0 | 0 |
 
 ## Delivery evidence
 
 - Recent public merges since the prior dashboard update: **0**.
 - Recent public releases since the prior dashboard update: **0**.
+- Workflow attention in the last 7 days: **0**. [Detailed rollup](./workflow-health-rollup.md).
 - Weekly delivery history: [Weekly Build Log](./weekly-build-log.md).
+- Link reliability: [Link Health Report](./link-health-report.md).
+- Monthly delivery history: [Monthly Engineering Snapshot](./monthly-engineering-snapshot.md).
 - Product priorities and acceptance criteria: [Developer Roadmap](https://github.com/users/uzme/projects/1).
 
 ## Quality system

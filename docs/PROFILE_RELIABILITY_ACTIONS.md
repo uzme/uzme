@@ -17,3 +17,5 @@ Bu qo‘shimcha Actions profil activity systemidagi dalillarni ishonchli va o‘
 `uzme/uzme → Actions`da action nomini tanlang va `Run workflow`ni bosing. Link Health pull requestda `404` yoki `410` kabi confirmed unavailable havola topsa qizil bo‘lishi kutiladi; scheduled/manual run esa reportni avval saqlaydi, keyin confirmed unhealthy link bo‘lsa failure qaytaradi. External URLlar cached, sakkiztadan parallel va besh soniyalik limit bilan tekshiriladi. Instagram kabi rate-limit, login-wall yoki vaqtinchalik network javoblari `UNVERIFIED` deb qayd etiladi va qayta tekshiruv kutadi.
 
 > Generated `profile/` reportlarini qo‘lda tahrirlamang. Muammoni source Markdown yoki flaghship repository workflowida tuzating, keyin Action yangi real signalni yozadi.
+
+> Generated report workflowlari bitta queue orqali navbat bilan ishlaydi. Shu sabab bir vaqtning o‘zida bir nechta report yangilansa ham `main` branchga push race yuz bermaydi; ehtiyot chorasi sifatida har commit qadamida uch martagacha rebase/retry ham bor.

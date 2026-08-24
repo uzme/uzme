@@ -18,4 +18,4 @@ Bu qo‘shimcha Actions profil activity systemidagi dalillarni ishonchli va o‘
 
 > Generated `profile/` reportlarini qo‘lda tahrirlamang. Muammoni source Markdown yoki flaghship repository workflowida tuzating, keyin Action yangi real signalni yozadi.
 
-> Generated report workflowlari bitta queue orqali navbat bilan ishlaydi. Shu sabab bir vaqtning o‘zida bir nechta report yangilansa ham `main` branchga push race yuz bermaydi; ehtiyot chorasi sifatida har commit qadamida uch martagacha rebase/retry ham bor.
+> Generated report workflowlari turli vaqtlarda ishlashi uchun schedule offsetlari qo‘llanadi. Qo‘lda bir paytda bir nechta report ishga tushirilsa, har commit qadamidagi uch martalik rebase/retry `main` branch push race’ini bartaraf etadi; runlar cancel qilinmaydi.

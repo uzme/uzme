@@ -55,6 +55,10 @@ const repositories = await Promise.all(flagshipRepositories.map(async (name) => 
 
   const workflowRuns = runs.workflow_runs || [];
   const latestRun = workflowRuns.find((run) => run.conclusion !== "skipped") || workflowRuns[0];
+  const recentAttention = workflowRuns.filter((run) =>
+    ["failure", "cancelled", "timed_out"].includes(run.conclusion)
+    && new Date(run.updated_at) >= new Date(since),
+  );
   const mergedPulls = pulls.filter((pull) => pull.merged_at && pull.merged_at > since);
   const recentReleases = (releases || []).filter((release) => release.published_at && release.published_at > since);
 
@@ -69,6 +73,7 @@ const repositories = await Promise.all(flagshipRepositories.map(async (name) => 
     workflow: latestRun?.name || "Workflow hali ishga tushmagan",
     conclusion: latestRun?.conclusion || latestRun?.status || "Noma’lum",
     runUrl: latestRun?.html_url || `https://github.com/${owner}/${name}/actions`,
+    recentAttention,
     openPulls: openPulls.length,
     dependabotPulls: openPulls.filter((pull) => pull.user?.login?.startsWith("dependabot")).length,
     mergedPulls,
@@ -95,6 +100,7 @@ const starDelta = delta(metrics.totalStars, previous.totalStars);
 const dependabotDelta = delta(metrics.totalDependabotPulls, previous.totalDependabotPulls);
 const recentMergedPulls = repositories.flatMap((repository) => repository.mergedPulls.map((pull) => ({ repository: repository.name, ...pull })));
 const recentReleases = repositories.flatMap((repository) => repository.recentReleases.map((release) => ({ repository: repository.name, ...release })));
+const recentWorkflowAttention = repositories.flatMap((repository) => repository.recentAttention.map((run) => ({ repository: repository.name, ...run })));
 const statusIcon = (status) => status === "success" ? "PASS" : status === "failure" ? "CHECK" : "PENDING";
 
 const achievements = [
@@ -117,6 +123,7 @@ const report = [
   `| Followers | ${metrics.followers} | ${formatDelta(followerDelta)} |`,
   `| Flagship repository starlari | ${metrics.totalStars} | ${formatDelta(starDelta)} |`,
   `| Ochiq Dependabot update PR’lari | ${metrics.totalDependabotPulls} | ${formatDelta(dependabotDelta)} |`,
+  `| So‘nggi 7 kundagi workflow attention | ${recentWorkflowAttention.length} | real-time public signal |`,
   "",
   "## Flagship repository holati",
   "",
@@ -155,7 +162,10 @@ const engineeringDashboard = [
   "",
   `- Recent public merges since the prior dashboard update: **${recentMergedPulls.length}**.`,
   `- Recent public releases since the prior dashboard update: **${recentReleases.length}**.`,
+  `- Workflow attention in the last 7 days: **${recentWorkflowAttention.length}**. [Detailed rollup](./workflow-health-rollup.md).`,
   "- Weekly delivery history: [Weekly Build Log](./weekly-build-log.md).",
+  "- Link reliability: [Link Health Report](./link-health-report.md).",
+  "- Monthly delivery history: [Monthly Engineering Snapshot](./monthly-engineering-snapshot.md).",
   "- Product priorities and acceptance criteria: [Developer Roadmap](https://github.com/users/uzme/projects/1).",
   "",
   "## Quality system",

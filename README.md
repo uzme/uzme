@@ -47,6 +47,9 @@ The profile now records visible product work through three small, evidence-based
 | [Engineering Dashboard](./profile/engineering-dashboard.md) | Current public flagship workflow and pull request health. | Daily automated refresh. |
 | [Weekly Build Log](./profile/weekly-build-log.md) | Public merges, releases, and workflow pulse from the last seven days. | Every Monday and on demand. |
 | [Build Notes](./docs/BUILD_NOTES.md) | Product and engineering decisions with context, evidence, and trade-offs. | Added when a durable decision is made. |
+| [Link Health Report](./profile/link-health-report.md) | README, documentation, and profile Markdown link reliability. | Weekly, on relevant pull requests, and on demand. |
+| [Workflow Health Rollup](./profile/workflow-health-rollup.md) | Recent public workflow failures, cancellations, and timeouts. | Daily and on demand. |
+| [Monthly Engineering Snapshot](./profile/monthly-engineering-snapshot.md) | Public monthly shipping, release, and engineering health history. | Every month and on demand. |
 
 ## Engineering signals
 

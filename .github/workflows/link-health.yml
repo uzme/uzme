@@ -10,10 +10,6 @@ on:
     - cron: "30 7 * * 5"
   workflow_dispatch:
 
-concurrency:
-  group: profile-generated-reports
-  cancel-in-progress: false
-
 permissions:
   contents: write
 

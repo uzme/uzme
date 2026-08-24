@@ -1,7 +1,7 @@
 # Weekly Build Log
 
-> Reporting window: Aug 16, 2026 — Aug 23, 2026 (UTC).
-> Generated: 2026-08-23T19:14:28.923Z.
+> Reporting window: Aug 17, 2026 — Aug 24, 2026 (UTC).
+> Generated: 2026-08-24T09:29:37.982Z.
 
 Bu jurnal faqat public flagship repository’lardagi real merge, release va workflow holatlaridan avtomatik yaratiladi. Private loyiha ma’lumotlari, tokenlar va secretlar kiritilmaydi.
 
@@ -24,9 +24,9 @@ Bu jurnal faqat public flagship repository’lardagi real merge, release va work
 
 | Repository | So‘nggi workflow | Holat |
 |---|---|---|
-| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/32657493610) | PASS — success |
-| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | [Repository Health Monitoring](https://github.com/uzme/biolab-interactive-guide/actions/runs/32657497528) | PASS — success |
-| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | [CodeQL Security Scan](https://github.com/uzme/developer-portfolio/actions/runs/32657660333) | PASS — success |
+| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/32700895920) | PASS — success |
+| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | [CI](https://github.com/uzme/biolab-interactive-guide/actions/runs/32711247703) | PASS — success |
+| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/32701992833) | PASS — success |
 
 ## Next product direction
 

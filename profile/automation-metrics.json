@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-24T09:04:49.342Z",
+  "generatedAt": "2026-08-25T09:00:40.324Z",
   "followers": 2,
   "totalStars": 0,
-  "totalDependabotPulls": 0,
+  "totalDependabotPulls": 8,
   "repositories": {
     "bahromjon-portfolio": {
       "stars": 0,
       "forks": 0,
-      "dependabotPulls": 0
+      "dependabotPulls": 8
     },
     "biolab-interactive-guide": {
       "stars": 0,

@@ -1,6 +1,6 @@
 # GitHub Automation Report
 
-> Oxirgi avtomatik yangilanish: 2026-08-24T09:04:49.342Z (UTC).
+> Oxirgi avtomatik yangilanish: 2026-08-25T09:00:40.324Z (UTC).
 
 Bu fayl GitHub Actions orqali har kuni yangilanadi. Unda faqat public loyiha holati jamlanadi; tokenlar, secretlar yoki shaxsiy ma’lumotlar yozilmaydi.
 
@@ -10,15 +10,15 @@ Bu fayl GitHub Actions orqali har kuni yangilanadi. Unda faqat public loyiha hol
 |---|---:|---:|
 | Followers | 2 | o‘zgarmadi |
 | Flagship repository starlari | 0 | o‘zgarmadi |
-| Ochiq Dependabot update PR’lari | 0 | o‘zgarmadi |
-| So‘nggi 7 kundagi workflow attention | 0 | real-time public signal |
+| Ochiq Dependabot update PR’lari | 8 | +8 |
+| So‘nggi 7 kundagi workflow attention | 3 | real-time public signal |
 
 ## Flagship repository holati
 
 | Repository | So‘nggi workflow | Holat | Stars | Dependabot PR |
 |---|---|---|---:|---:|
-| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/32700895920) | PASS — success | 0 | 0 |
-| [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [CI](https://github.com/uzme/biolab-interactive-guide/actions/runs/32702234738) | PASS — success | 0 | 0 |
+| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [CodeQL Security Scan](https://github.com/uzme/bahromjon-portfolio/actions/runs/32718512727) | PASS — success | 0 | 8 |
+| [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [CI](https://github.com/uzme/biolab-interactive-guide/actions/runs/32758646513) | PASS — success | 0 | 0 |
 | [developer-portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/32701992833) | PASS — success | 0 | 0 |
 
 ## Oxirgi yutuqlar

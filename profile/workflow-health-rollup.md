@@ -1,7 +1,7 @@
 # Workflow Health Rollup
 
-> Window: Aug 20, 2026 — Aug 27, 2026 (UTC).
-> Status: **ATTENTION** — 11 meaningful failure/cancelled/timed-out run in the last 7 days.
+> Window: Aug 21, 2026 — Aug 28, 2026 (UTC).
+> Status: **ATTENTION** — 12 meaningful failure/cancelled/timed-out run in the last 7 days.
 
 Bu rollup faqat public flagship repository’lardagi GitHub Actions runlarini o‘qiydi. Notification event filteri sabab `skipped` bo‘lgan runlar health signal hisoblanmaydi.
 
@@ -12,11 +12,13 @@ Joriy health jadvali har repository’ning eng so‘nggi mazmunli workflow holat
 | Repository | Latest meaningful workflow | Current status | Recent attention |
 |---|---|---|---:|
 | [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | [CodeQL Security Scan](https://github.com/uzme/bahromjon-portfolio/actions/runs/32718512727) | PASS | 8 |
-| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | [CI](https://github.com/uzme/biolab-interactive-guide/actions/runs/32850035462) | PASS | 3 |
+| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | [CI](https://github.com/uzme/biolab-interactive-guide/actions/runs/33111633333) | PASS | 4 |
 | [Developer Portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/32701992833) | PASS | 0 |
 
 ## Attention detail
 
+- **BioLab Interactive Guide** · [npm_and_yarn in /mobile for postcss - Update #1543325345](https://github.com/uzme/biolab-interactive-guide/actions/runs/33109105851) · failure · Aug 27, 2026
+- **BioLab Interactive Guide** · [npm_and_yarn in /mobile for uuid - Update #1543325360](https://github.com/uzme/biolab-interactive-guide/actions/runs/33109109337) · failure · Aug 27, 2026
 - **BioLab Interactive Guide** · [npm_and_yarn in /mobile for postcss - Update #1538541961](https://github.com/uzme/biolab-interactive-guide/actions/runs/32727870448) · failure · Aug 24, 2026
 - **BioLab Interactive Guide** · [npm_and_yarn in /mobile for uuid - Update #1538541909](https://github.com/uzme/biolab-interactive-guide/actions/runs/32727869893) · failure · Aug 24, 2026
 - **Bahromjon Portfolio** · [npm_and_yarn in /. - Update #1538350220](https://github.com/uzme/bahromjon-portfolio/actions/runs/32718334111) · failure · Aug 24, 2026
@@ -26,5 +28,4 @@ Joriy health jadvali har repository’ning eng so‘nggi mazmunli workflow holat
 - **Bahromjon Portfolio** · [Portfolio CI](https://github.com/uzme/bahromjon-portfolio/actions/runs/32718454296) · failure · Aug 24, 2026
 - **Bahromjon Portfolio** · [Dependabot Safe Auto-Merge](https://github.com/uzme/bahromjon-portfolio/actions/runs/32718432587) · failure · Aug 24, 2026
 - **Bahromjon Portfolio** · [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/32657282856) · failure · Aug 23, 2026
-- **BioLab Interactive Guide** · [npm_and_yarn in /. for @babel/core - Update #1536225123](https://github.com/uzme/biolab-interactive-guide/actions/runs/32577417328) · failure · Aug 22, 2026
 - **Bahromjon Portfolio** · [Portfolio CI](https://github.com/uzme/bahromjon-portfolio/actions/runs/32523500759) · failure · Aug 21, 2026

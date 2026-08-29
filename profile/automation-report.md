@@ -1,6 +1,6 @@
 # GitHub Automation Report
 
-> Oxirgi avtomatik yangilanish: 2026-08-28T20:12:06.780Z (UTC).
+> Oxirgi avtomatik yangilanish: 2026-08-29T13:49:55.332Z (UTC).
 
 Bu fayl GitHub Actions orqali har kuni yangilanadi. Unda faqat public loyiha holati jamlanadi; tokenlar, secretlar yoki shaxsiy ma’lumotlar yozilmaydi.
 
@@ -11,7 +11,7 @@ Bu fayl GitHub Actions orqali har kuni yangilanadi. Unda faqat public loyiha hol
 | Followers | 2 | o‘zgarmadi |
 | Flagship repository starlari | 0 | o‘zgarmadi |
 | Ochiq Dependabot update PR’lari | 8 | o‘zgarmadi |
-| So‘nggi 7 kundagi workflow attention | 2 | real-time public signal |
+| So‘nggi 7 kundagi workflow attention | 0 | real-time public signal |
 
 ## Flagship repository holati
 

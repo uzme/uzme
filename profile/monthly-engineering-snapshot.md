@@ -1,7 +1,7 @@
 # Monthly Engineering Snapshot — 2026-08
 
-> Month to date: Aug 1, 2026 — Aug 24, 2026 (UTC).
-> Generated: 2026-08-24T05:27:38.416Z.
+> Completed month: Aug 1, 2026 — Sep 1, 2026 (UTC).
+> Generated: 2026-09-01T13:27:42.862Z.
 
 Bu snapshot faqat public flagship repository’larning real GitHub merge, release va workflow signalini jamlaydi. Private loyiha ma’lumotlari, tokenlar va secretlar kiritilmaydi.
 
@@ -11,16 +11,16 @@ Bu snapshot faqat public flagship repository’larning real GitHub merge, releas
 |---|---:|
 | Public merged PR | 77 |
 | Published release | 2 |
-| Successful meaningful workflow run | 181 |
-| Failure/cancelled/timed-out workflow run | 5 |
+| Successful meaningful workflow run | 164 |
+| Failure/cancelled/timed-out workflow run | 12 |
 
 ## Repository breakdown
 
 | Repository | Merged PR | Release | Successful workflow | Attention run | Open PR | Dependabot PR |
 |---|---:|---:|---:|---:|---:|---:|
-| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | 18 | 1 | 53 | 2 | 0 | 0 |
-| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | 46 | 1 | 72 | 3 | 0 | 0 |
-| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | 13 | 0 | 56 | 0 | 0 | 0 |
+| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | 18 | 1 | 50 | 8 | 8 | 8 |
+| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | 46 | 1 | 57 | 4 | 5 | 5 |
+| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | 13 | 0 | 57 | 0 | 0 | 0 |
 
 ## Shipped evidence
 
@@ -52,11 +52,18 @@ Bu snapshot faqat public flagship repository’larning real GitHub merge, releas
 
 ## Workflow attention
 
+- **Bahromjon Portfolio** · [Dependabot Safe Auto-Merge](https://github.com/uzme/bahromjon-portfolio/actions/runs/32718511980) · failure
+- **Bahromjon Portfolio** · [Dependabot Safe Auto-Merge](https://github.com/uzme/bahromjon-portfolio/actions/runs/32718495162) · failure
+- **Bahromjon Portfolio** · [Dependabot Safe Auto-Merge](https://github.com/uzme/bahromjon-portfolio/actions/runs/32718470461) · failure
+- **Bahromjon Portfolio** · [Portfolio CI](https://github.com/uzme/bahromjon-portfolio/actions/runs/32718454296) · failure
+- **Bahromjon Portfolio** · [Dependabot Safe Auto-Merge](https://github.com/uzme/bahromjon-portfolio/actions/runs/32718432587) · failure
+- **Bahromjon Portfolio** · [npm_and_yarn in /. - Update #1538350220](https://github.com/uzme/bahromjon-portfolio/actions/runs/32718334111) · failure
 - **Bahromjon Portfolio** · [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/32657282856) · failure
 - **Bahromjon Portfolio** · [Portfolio CI](https://github.com/uzme/bahromjon-portfolio/actions/runs/32523500759) · failure
-- **BioLab Interactive Guide** · [npm_and_yarn in /. for @babel/core - Update #1536225123](https://github.com/uzme/biolab-interactive-guide/actions/runs/32577417328) · failure
-- **BioLab Interactive Guide** · [npm_and_yarn in /. for mdast-util-to-hast - Update #1536225121](https://github.com/uzme/biolab-interactive-guide/actions/runs/32577416321) · failure
-- **BioLab Interactive Guide** · [npm_and_yarn in /. for picomatch - Update #1536225122](https://github.com/uzme/biolab-interactive-guide/actions/runs/32577416274) · failure
+- **BioLab Interactive Guide** · [npm_and_yarn in /mobile for uuid - Update #1543325360](https://github.com/uzme/biolab-interactive-guide/actions/runs/33109109337) · failure
+- **BioLab Interactive Guide** · [npm_and_yarn in /mobile for postcss - Update #1543325345](https://github.com/uzme/biolab-interactive-guide/actions/runs/33109105851) · failure
+- **BioLab Interactive Guide** · [npm_and_yarn in /mobile for postcss - Update #1538541961](https://github.com/uzme/biolab-interactive-guide/actions/runs/32727870448) · failure
+- **BioLab Interactive Guide** · [npm_and_yarn in /mobile for uuid - Update #1538541909](https://github.com/uzme/biolab-interactive-guide/actions/runs/32727869893) · failure
 
 ## Related evidence
 

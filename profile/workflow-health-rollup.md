@@ -1,6 +1,6 @@
 # Workflow Health Rollup
 
-> Window: Aug 25, 2026 — Sep 1, 2026 (UTC).
+> Window: Aug 26, 2026 — Sep 2, 2026 (UTC).
 > Status: **ATTENTION** — 2 meaningful failure/cancelled/timed-out run in the last 7 days.
 
 Bu rollup faqat public flagship repository’lardagi GitHub Actions runlarini o‘qiydi. Notification event filteri sabab `skipped` bo‘lgan runlar health signal hisoblanmaydi.
@@ -11,8 +11,8 @@ Joriy health jadvali har repository’ning eng so‘nggi mazmunli workflow holat
 
 | Repository | Latest meaningful workflow | Current status | Recent attention |
 |---|---|---|---:|
-| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/33398413713) | PASS | 0 |
-| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | [CI](https://github.com/uzme/biolab-interactive-guide/actions/runs/33111633333) | PASS | 2 |
+| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | [CodeQL Security Scan](https://github.com/uzme/bahromjon-portfolio/actions/runs/33550431339) | PASS | 0 |
+| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | [Pull Request Quality](https://github.com/uzme/biolab-interactive-guide/actions/runs/33550157958) | PASS | 2 |
 | [Developer Portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/33400672458) | PASS | 0 |
 
 ## Attention detail

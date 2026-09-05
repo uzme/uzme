@@ -1,6 +1,6 @@
 # Workflow Health Rollup
 
-> Window: Aug 28, 2026 — Sep 4, 2026 (UTC).
+> Window: Aug 29, 2026 — Sep 5, 2026 (UTC).
 > Status: **PASS** — 0 meaningful failure/cancelled/timed-out run in the last 7 days.
 
 Bu rollup faqat public flagship repository’lardagi GitHub Actions runlarini o‘qiydi. Notification event filteri sabab `skipped` bo‘lgan runlar health signal hisoblanmaydi.

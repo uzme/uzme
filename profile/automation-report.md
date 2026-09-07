@@ -1,6 +1,6 @@
 # GitHub Automation Report
 
-> Oxirgi avtomatik yangilanish: 2026-09-06T12:08:43.442Z (UTC).
+> Oxirgi avtomatik yangilanish: 2026-09-07T14:15:23.746Z (UTC).
 
 Bu fayl GitHub Actions orqali har kuni yangilanadi. Unda faqat public loyiha holati jamlanadi; tokenlar, secretlar yoki shaxsiy ma’lumotlar yozilmaydi.
 
@@ -11,15 +11,15 @@ Bu fayl GitHub Actions orqali har kuni yangilanadi. Unda faqat public loyiha hol
 | Followers | 3 | o‘zgarmadi |
 | Flagship repository starlari | 0 | o‘zgarmadi |
 | Ochiq Dependabot update PR’lari | 15 | o‘zgarmadi |
-| So‘nggi 7 kundagi workflow attention | 0 | real-time public signal |
+| So‘nggi 7 kundagi workflow attention | 1 | real-time public signal |
 
 ## Flagship repository holati
 
 | Repository | So‘nggi workflow | Holat | Stars | Dependabot PR |
 |---|---|---|---:|---:|
-| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [npm_and_yarn in /. for @babel/core, body-parser, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, esbuild, lodash, lodash, lodash, lodash-es, lodash-es, lodash-es, mdast-util-to-hast, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, path-to-regexp, pnpm, pnpm, pnpm, qs, qs, qs, tar, tar, tar, tar, tar, tar, tar, tar, tar, uuid...](https://github.com/uzme/bahromjon-portfolio/actions/runs/33651556410) | PASS — success | 0 | 9 |
-| [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [Pull Request Quality](https://github.com/uzme/biolab-interactive-guide/actions/runs/33550157958) | PASS — success | 0 | 6 |
-| [developer-portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/33400672458) | PASS — success | 0 | 0 |
+| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/34121738700) | PASS — success | 0 | 9 |
+| [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [npm_and_yarn in /. for browserslist - Update #1559804161](https://github.com/uzme/biolab-interactive-guide/actions/runs/34064331479) | CHECK — failure | 0 | 6 |
+| [developer-portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/34123675140) | PASS — success | 0 | 0 |
 
 ## Oxirgi yutuqlar
 

@@ -1,6 +1,6 @@
 # Engineering Dashboard
 
-> Oxirgi yangilanish: 2026-09-07T14:15:23.746Z (UTC).
+> Oxirgi yangilanish: 2026-09-08T12:52:30.533Z (UTC).
 
 Bu dashboard faqat public flagship repository’larning real GitHub signalidan yaratiladi. Private loyiha tafsilotlari, tokenlar va secretlar ko‘rsatilmaydi.
 
@@ -8,8 +8,8 @@ Bu dashboard faqat public flagship repository’larning real GitHub signalidan y
 
 | Repository | So‘nggi workflow | Holat | Ochiq PR | Dependabot PR |
 |---|---|---|---:|---:|
-| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/34121738700) | PASS — success | 9 | 9 |
-| [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [npm_and_yarn in /. for browserslist - Update #1559804161](https://github.com/uzme/biolab-interactive-guide/actions/runs/34064331479) | CHECK — failure | 6 | 6 |
+| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [npm_and_yarn in /. for @babel/core, body-parser, browserslist, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, esbuild, lodash, lodash, lodash, lodash-es, lodash-es, lodash-es, mdast-util-to-hast, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, path-to-regexp, pnpm, pnpm, pnpm, qs, qs, qs, tar, tar, tar, tar, tar, tar, tar, ...](https://github.com/uzme/bahromjon-portfolio/actions/runs/34184013075) | PASS — success | 9 | 9 |
+| [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [npm_and_yarn in /. for qs - Update #1563061419](https://github.com/uzme/biolab-interactive-guide/actions/runs/34183964511) | CHECK — failure | 6 | 6 |
 | [developer-portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/34123675140) | PASS — success | 0 | 0 |
 
 ## Delivery evidence

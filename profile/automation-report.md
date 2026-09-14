@@ -1,6 +1,6 @@
 # GitHub Automation Report
 
-> Oxirgi avtomatik yangilanish: 2026-09-13T13:18:34.894Z (UTC).
+> Oxirgi avtomatik yangilanish: 2026-09-14T15:01:30.467Z (UTC).
 
 Bu fayl GitHub Actions orqali har kuni yangilanadi. Unda faqat public loyiha holati jamlanadi; tokenlar, secretlar yoki shaxsiy ma’lumotlar yozilmaydi.
 
@@ -11,15 +11,15 @@ Bu fayl GitHub Actions orqali har kuni yangilanadi. Unda faqat public loyiha hol
 | Followers | 3 | o‘zgarmadi |
 | Flagship repository starlari | 0 | o‘zgarmadi |
 | Ochiq Dependabot update PR’lari | 16 | o‘zgarmadi |
-| So‘nggi 7 kundagi workflow attention | 2 | real-time public signal |
+| So‘nggi 7 kundagi workflow attention | 0 | real-time public signal |
 
 ## Flagship repository holati
 
 | Repository | So‘nggi workflow | Holat | Stars | Dependabot PR |
 |---|---|---|---:|---:|
-| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [npm_and_yarn in /. for @babel/core, @vitest/mocker, baseline-browser-mapping, body-parser, browserslist, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, esbuild, lodash, lodash, lodash, lodash-es, lodash-es, lodash-es, mdast-util-to-hast, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, path-to-regexp, pnpm, pnpm, pnpm, qs, q...](https://github.com/uzme/bahromjon-portfolio/actions/runs/34544611149) | PASS — success | 0 | 9 |
+| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/34844636806) | PASS — success | 0 | 9 |
 | [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [npm_and_yarn in /mobile for js-yaml - Update #1573293438](https://github.com/uzme/biolab-interactive-guide/actions/runs/34751788386) | CHECK — failure | 0 | 7 |
-| [developer-portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/34123675140) | PASS — success | 0 | 0 |
+| [developer-portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/34846741724) | PASS — success | 0 | 0 |
 
 ## Oxirgi yutuqlar
 

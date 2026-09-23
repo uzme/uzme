@@ -1,6 +1,6 @@
 # Engineering Dashboard
 
-> Oxirgi yangilanish: 2026-09-22T13:24:48.337Z (UTC).
+> Oxirgi yangilanish: 2026-09-23T13:38:57.198Z (UTC).
 
 Bu dashboard faqat public flagship repository’larning real GitHub signalidan yaratiladi. Private loyiha tafsilotlari, tokenlar va secretlar ko‘rsatilmaydi.
 

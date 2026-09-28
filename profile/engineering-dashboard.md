@@ -1,6 +1,6 @@
 # Engineering Dashboard
 
-> Oxirgi yangilanish: 2026-09-27T13:58:54.067Z (UTC).
+> Oxirgi yangilanish: 2026-09-28T16:45:27.990Z (UTC).
 
 Bu dashboard faqat public flagship repository’larning real GitHub signalidan yaratiladi. Private loyiha tafsilotlari, tokenlar va secretlar ko‘rsatilmaydi.
 
@@ -8,9 +8,9 @@ Bu dashboard faqat public flagship repository’larning real GitHub signalidan y
 
 | Repository | So‘nggi workflow | Holat | Ochiq PR | Dependabot PR |
 |---|---|---|---:|---:|
-| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/35601084849) | PASS — success | 9 | 9 |
+| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/36431094284) | PASS — success | 9 | 9 |
 | [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [CI](https://github.com/uzme/biolab-interactive-guide/actions/runs/36275200427) | PASS — success | 7 | 7 |
-| [developer-portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/35602874975) | PASS — success | 0 | 0 |
+| [developer-portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/36434017188) | PASS — success | 0 | 0 |
 
 ## Delivery evidence
 

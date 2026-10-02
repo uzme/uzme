@@ -1,6 +1,6 @@
 # GitHub Automation Report
 
-> Oxirgi avtomatik yangilanish: 2026-10-01T15:27:15.934Z (UTC).
+> Oxirgi avtomatik yangilanish: 2026-10-02T14:44:26.980Z (UTC).
 
 Bu fayl GitHub Actions orqali har kuni yangilanadi. Unda faqat public loyiha holati jamlanadi; tokenlar, secretlar yoki shaxsiy ma’lumotlar yozilmaydi.
 
@@ -18,7 +18,7 @@ Bu fayl GitHub Actions orqali har kuni yangilanadi. Unda faqat public loyiha hol
 | Repository | So‘nggi workflow | Holat | Stars | Dependabot PR |
 |---|---|---|---:|---:|
 | [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/36431094284) | PASS — success | 0 | 9 |
-| [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [npm_and_yarn in /mobile for undici - Update #1598416264](https://github.com/uzme/BioLab/actions/runs/36612838754) | CHECK — failure | 0 | 7 |
+| [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [CI](https://github.com/uzme/BioLab/actions/runs/36964792308) | PASS — success | 0 | 7 |
 | [developer-portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/36434017188) | PASS — success | 0 | 0 |
 
 ## Oxirgi yutuqlar

@@ -1,6 +1,6 @@
 # Engineering Dashboard
 
-> Oxirgi yangilanish: 2026-10-02T14:44:26.980Z (UTC).
+> Oxirgi yangilanish: 2026-10-03T13:23:18.686Z (UTC).
 
 Bu dashboard faqat public flagship repository’larning real GitHub signalidan yaratiladi. Private loyiha tafsilotlari, tokenlar va secretlar ko‘rsatilmaydi.
 
@@ -9,14 +9,14 @@ Bu dashboard faqat public flagship repository’larning real GitHub signalidan y
 | Repository | So‘nggi workflow | Holat | Ochiq PR | Dependabot PR |
 |---|---|---|---:|---:|
 | [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/36431094284) | PASS — success | 9 | 9 |
-| [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [CI](https://github.com/uzme/BioLab/actions/runs/36964792308) | PASS — success | 7 | 7 |
+| [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [Pull Request Quality](https://github.com/uzme/BioLab/actions/runs/37043017949) | PASS — success | 7 | 7 |
 | [developer-portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/36434017188) | PASS — success | 0 | 0 |
 
 ## Delivery evidence
 
 - Recent public merges since the prior dashboard update: **0**.
 - Recent public releases since the prior dashboard update: **0**.
-- Workflow attention in the last 7 days: **0**. [Detailed rollup](./workflow-health-rollup.md).
+- Workflow attention in the last 7 days: **1**. [Detailed rollup](./workflow-health-rollup.md).
 - Weekly delivery history: [Weekly Build Log](./weekly-build-log.md).
 - Link reliability: [Link Health Report](./link-health-report.md).
 - Monthly delivery history: [Monthly Engineering Snapshot](./monthly-engineering-snapshot.md).

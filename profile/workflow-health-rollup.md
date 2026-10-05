@@ -1,6 +1,6 @@
 # Workflow Health Rollup
 
-> Window: Sep 27, 2026 — Oct 4, 2026 (UTC).
+> Window: Sep 28, 2026 — Oct 5, 2026 (UTC).
 > Status: **ATTENTION** — 2 meaningful failure/cancelled/timed-out run in the last 7 days.
 
 Bu rollup faqat public flagship repository’lardagi GitHub Actions runlarini o‘qiydi. Notification event filteri sabab `skipped` bo‘lgan runlar health signal hisoblanmaydi.
@@ -11,9 +11,9 @@ Joriy health jadvali har repository’ning eng so‘nggi mazmunli workflow holat
 
 | Repository | Latest meaningful workflow | Current status | Recent attention |
 |---|---|---|---:|
-| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/36431094284) | PASS | 0 |
+| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | [npm_and_yarn in /. for @babel/core, @vitest/mocker, axios, baseline-browser-mapping, body-parser, browserslist, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, esbuild, lodash, lodash, lodash, lodash-es, lodash-es, lodash-es, mdast-util-to-hast, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, path-to-regexp, pnpm, pnpm, pnpm...](https://github.com/uzme/bahromjon-portfolio/actions/runs/37331001263) | PASS | 0 |
 | [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | [CI](https://github.com/uzme/BioLab/actions/runs/37197120658) | PASS | 2 |
-| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/36434017188) | PASS | 0 |
+| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/37328957446) | PASS | 0 |
 
 ## Attention detail
 

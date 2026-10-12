@@ -1,6 +1,6 @@
 # Engineering Dashboard
 
-> Oxirgi yangilanish: 2026-10-11T14:55:04.292Z (UTC).
+> Oxirgi yangilanish: 2026-10-12T17:54:27.867Z (UTC).
 
 Bu dashboard faqat public flagship repository’larning real GitHub signalidan yaratiladi. Private loyiha tafsilotlari, tokenlar va secretlar ko‘rsatilmaydi.
 
@@ -8,9 +8,9 @@ Bu dashboard faqat public flagship repository’larning real GitHub signalidan y
 
 | Repository | So‘nggi workflow | Holat | Ochiq PR | Dependabot PR |
 |---|---|---|---:|---:|
-| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [npm_and_yarn in /. for @babel/core, @vitest/mocker, axios, axios, axios, axios, axios, axios, axios, axios, baseline-browser-mapping, body-parser, browserslist, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, esbuild, lodash, lodash, lodash, lodash-es, lodash-es, lodash-es, mdast-util-to-hast, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, m...](https://github.com/uzme/bahromjon-portfolio/actions/runs/37736825732) | PASS — success | 9 | 9 |
+| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/38268852119) | PASS — success | 9 | 9 |
 | [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [CI](https://github.com/uzme/BioLab/actions/runs/37197120658) | PASS — success | 7 | 7 |
-| [developer-portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/37328957446) | PASS — success | 0 | 0 |
+| [developer-portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/38272399039) | PASS — success | 0 | 0 |
 
 ## Delivery evidence
 

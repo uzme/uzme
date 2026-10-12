@@ -1,7 +1,7 @@
 # Weekly Build Log
 
-> Reporting window: Sep 28, 2026 — Oct 5, 2026 (UTC).
-> Generated: 2026-10-05T17:24:42.968Z.
+> Reporting window: Oct 5, 2026 — Oct 12, 2026 (UTC).
+> Generated: 2026-10-12T18:13:00.240Z.
 
 Bu jurnal faqat public flagship repository’lardagi real merge, release va workflow holatlaridan avtomatik yaratiladi. Private loyiha ma’lumotlari, tokenlar va secretlar kiritilmaydi.
 
@@ -13,9 +13,9 @@ Bu jurnal faqat public flagship repository’lardagi real merge, release va work
 
 | Repository | So‘nggi workflow | Holat |
 |---|---|---|
-| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | [npm_and_yarn in /. for @babel/core, @vitest/mocker, axios, baseline-browser-mapping, body-parser, browserslist, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, esbuild, lodash, lodash, lodash, lodash-es, lodash-es, lodash-es, mdast-util-to-hast, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, mermaid, path-to-regexp, pnpm, pnpm, pnpm...](https://github.com/uzme/bahromjon-portfolio/actions/runs/37331001263) | PASS — success |
+| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/38268852119) | PASS — success |
 | [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | [CI](https://github.com/uzme/BioLab/actions/runs/37197120658) | PASS — success |
-| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/37328957446) | PASS — success |
+| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/38272399039) | PASS — success |
 
 ## Next product direction
 

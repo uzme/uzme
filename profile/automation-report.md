@@ -1,6 +1,6 @@
 # GitHub Automation Report
 
-> Oxirgi avtomatik yangilanish: 2026-10-21T13:48:33.892Z (UTC).
+> Oxirgi avtomatik yangilanish: 2026-10-22T13:48:04.317Z (UTC).
 
 Bu fayl GitHub Actions orqali har kuni yangilanadi. Unda faqat public loyiha holati jamlanadi; tokenlar, secretlar yoki shaxsiy ma’lumotlar yozilmaydi.
 
@@ -10,15 +10,15 @@ Bu fayl GitHub Actions orqali har kuni yangilanadi. Unda faqat public loyiha hol
 |---|---:|---:|
 | Followers | 3 | o‘zgarmadi |
 | Flagship repository starlari | 1 | o‘zgarmadi |
-| Ochiq Dependabot update PR’lari | 16 | o‘zgarmadi |
-| So‘nggi 7 kundagi workflow attention | 0 | real-time public signal |
+| Ochiq Dependabot update PR’lari | 17 | +1 |
+| So‘nggi 7 kundagi workflow attention | 1 | real-time public signal |
 
 ## Flagship repository holati
 
 | Repository | So‘nggi workflow | Holat | Stars | Dependabot PR |
 |---|---|---|---:|---:|
 | [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/39257010147) | PASS — success | 0 | 9 |
-| [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [npm_and_yarn in /mobile for source-map-js - Update #1634564172](https://github.com/uzme/BioLab/actions/runs/39154423401) | CHECK — failure | 1 | 7 |
+| [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [Pull Request Quality](https://github.com/uzme/BioLab/actions/runs/39625045035) | PASS — success | 1 | 8 |
 | [developer-portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/39261830298) | PASS — success | 0 | 0 |
 
 ## Oxirgi yutuqlar

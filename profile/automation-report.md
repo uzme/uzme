@@ -1,6 +1,6 @@
 # GitHub Automation Report
 
-> Oxirgi avtomatik yangilanish: 2026-10-22T13:48:04.317Z (UTC).
+> Oxirgi avtomatik yangilanish: 2026-10-23T13:26:56.478Z (UTC).
 
 Bu fayl GitHub Actions orqali har kuni yangilanadi. Unda faqat public loyiha holati jamlanadi; tokenlar, secretlar yoki shaxsiy ma’lumotlar yozilmaydi.
 
@@ -10,14 +10,14 @@ Bu fayl GitHub Actions orqali har kuni yangilanadi. Unda faqat public loyiha hol
 |---|---:|---:|
 | Followers | 3 | o‘zgarmadi |
 | Flagship repository starlari | 1 | o‘zgarmadi |
-| Ochiq Dependabot update PR’lari | 17 | +1 |
-| So‘nggi 7 kundagi workflow attention | 1 | real-time public signal |
+| Ochiq Dependabot update PR’lari | 17 | o‘zgarmadi |
+| So‘nggi 7 kundagi workflow attention | 0 | real-time public signal |
 
 ## Flagship repository holati
 
 | Repository | So‘nggi workflow | Holat | Stars | Dependabot PR |
 |---|---|---|---:|---:|
-| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/39257010147) | PASS — success | 0 | 9 |
+| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [npm_and_yarn in /. for @babel/core, @vitest/mocker, axios, axios, axios, axios, axios, axios, axios, axios, axios, axios, baseline-browser-mapping, body-parser, browserslist, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, esbuild, follow-redirects, follow-redirects, lodash, lodash, lodash, lodash-es, lodash-es, lodash-es, mdast-util-to-hast, mermaid, merma...](https://github.com/uzme/bahromjon-portfolio/actions/runs/39954050484) | PASS — success | 0 | 9 |
 | [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [Pull Request Quality](https://github.com/uzme/BioLab/actions/runs/39625045035) | PASS — success | 1 | 8 |
 | [developer-portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/39261830298) | PASS — success | 0 | 0 |
 

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-25T12:34:23.286Z",
-  "windowStart": "2026-10-18T12:34:23.286Z",
-  "windowEnd": "2026-10-25T12:34:23.286Z",
-  "attentionCount": 3,
+  "generatedAt": "2026-10-26T14:17:03.686Z",
+  "windowStart": "2026-10-19T14:17:03.686Z",
+  "windowEnd": "2026-10-26T14:17:03.686Z",
+  "attentionCount": 1,
   "repositories": {
     "bahromjon-portfolio": {
       "latestConclusion": "success",
@@ -10,7 +10,7 @@
     },
     "biolab-interactive-guide": {
       "latestConclusion": "success",
-      "recentAttention": 3
+      "recentAttention": 1
     },
     "developer-portfolio": {
       "latestConclusion": "success",

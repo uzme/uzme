@@ -1,7 +1,7 @@
 # Link Health Report
 
-> Generated: 2026-10-23T12:45:07.071Z (UTC).
-> Status: **ATTENTION** — 136/138 links confirmed healthy; 2 remote link requires a later retry.
+> Generated: 2026-10-30T14:26:19.376Z (UTC).
+> Status: **ATTENTION** — 131/133 links confirmed healthy; 2 remote link requires a later retry.
 
 Bu report README, `docs/` va `profile/` ichidagi Markdown havolalarini tekshiradi. Private ma’lumot, token yoki autentifikatsiya qilingan endpointlar tekshirilmaydi.
 
@@ -40,17 +40,17 @@ Bu report README, `docs/` va `profile/` ichidagi Markdown havolalarini tekshirad
 | `docs/PROFILE_RELIABILITY_ACTIONS.md` | [../profile/workflow-health-rollup.md](../profile/workflow-health-rollup.md) | PASS — Local file exists |
 | `docs/PROFILE_RELIABILITY_ACTIONS.md` | [../profile/monthly-engineering-snapshot.md](../profile/monthly-engineering-snapshot.md) | PASS — Local file exists |
 | `profile/automation-report.md` | [https://github.com/uzme/bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | PASS — HTTP 200 |
-| `profile/automation-report.md` | [https://github.com/uzme/bahromjon-portfolio/actions/runs/39257010147](https://github.com/uzme/bahromjon-portfolio/actions/runs/39257010147) | PASS — HTTP 200 |
+| `profile/automation-report.md` | [https://github.com/uzme/bahromjon-portfolio/actions/runs/40743481971](https://github.com/uzme/bahromjon-portfolio/actions/runs/40743481971) | PASS — HTTP 200 |
 | `profile/automation-report.md` | [https://github.com/uzme/biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | PASS — HTTP 200 |
-| `profile/automation-report.md` | [https://github.com/uzme/BioLab/actions/runs/39625045035](https://github.com/uzme/BioLab/actions/runs/39625045035) | PASS — HTTP 200 |
+| `profile/automation-report.md` | [https://github.com/uzme/BioLab/actions/runs/40437050724](https://github.com/uzme/BioLab/actions/runs/40437050724) | PASS — HTTP 200 |
 | `profile/automation-report.md` | [https://github.com/uzme/developer-portfolio](https://github.com/uzme/developer-portfolio) | PASS — HTTP 200 |
-| `profile/automation-report.md` | [https://github.com/uzme/developer-portfolio/actions/runs/39261830298](https://github.com/uzme/developer-portfolio/actions/runs/39261830298) | PASS — HTTP 200 |
+| `profile/automation-report.md` | [https://github.com/uzme/developer-portfolio/actions/runs/40329630428](https://github.com/uzme/developer-portfolio/actions/runs/40329630428) | PASS — HTTP 200 |
 | `profile/engineering-dashboard.md` | [https://github.com/uzme/bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | PASS — HTTP 200 |
-| `profile/engineering-dashboard.md` | [https://github.com/uzme/bahromjon-portfolio/actions/runs/39257010147](https://github.com/uzme/bahromjon-portfolio/actions/runs/39257010147) | PASS — HTTP 200 |
+| `profile/engineering-dashboard.md` | [https://github.com/uzme/bahromjon-portfolio/actions/runs/40743481971](https://github.com/uzme/bahromjon-portfolio/actions/runs/40743481971) | PASS — HTTP 200 |
 | `profile/engineering-dashboard.md` | [https://github.com/uzme/biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | PASS — HTTP 200 |
-| `profile/engineering-dashboard.md` | [https://github.com/uzme/BioLab/actions/runs/39625045035](https://github.com/uzme/BioLab/actions/runs/39625045035) | PASS — HTTP 200 |
+| `profile/engineering-dashboard.md` | [https://github.com/uzme/BioLab/actions/runs/40437050724](https://github.com/uzme/BioLab/actions/runs/40437050724) | PASS — HTTP 200 |
 | `profile/engineering-dashboard.md` | [https://github.com/uzme/developer-portfolio](https://github.com/uzme/developer-portfolio) | PASS — HTTP 200 |
-| `profile/engineering-dashboard.md` | [https://github.com/uzme/developer-portfolio/actions/runs/39261830298](https://github.com/uzme/developer-portfolio/actions/runs/39261830298) | PASS — HTTP 200 |
+| `profile/engineering-dashboard.md` | [https://github.com/uzme/developer-portfolio/actions/runs/40329630428](https://github.com/uzme/developer-portfolio/actions/runs/40329630428) | PASS — HTTP 200 |
 | `profile/engineering-dashboard.md` | [./workflow-health-rollup.md](./workflow-health-rollup.md) | PASS — Local file exists |
 | `profile/engineering-dashboard.md` | [./weekly-build-log.md](./weekly-build-log.md) | PASS — Local file exists |
 | `profile/engineering-dashboard.md` | [./link-health-report.md](./link-health-report.md) | PASS — Local file exists |
@@ -130,20 +130,15 @@ Bu report README, `docs/` va `profile/` ichidagi Markdown havolalarini tekshirad
 | `profile/monthly-snapshots/2026-09.md` | [../weekly-build-log.md](../weekly-build-log.md) | PASS — Local file exists |
 | `profile/monthly-snapshots/2026-09.md` | [https://github.com/users/uzme/projects/1](https://github.com/users/uzme/projects/1) | PASS — HTTP 200 |
 | `profile/weekly-build-log.md` | [https://github.com/uzme/bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | PASS — HTTP 200 |
-| `profile/weekly-build-log.md` | [https://github.com/uzme/bahromjon-portfolio/actions/runs/39257010147](https://github.com/uzme/bahromjon-portfolio/actions/runs/39257010147) | PASS — HTTP 200 |
+| `profile/weekly-build-log.md` | [https://github.com/uzme/bahromjon-portfolio/actions/runs/40326118711](https://github.com/uzme/bahromjon-portfolio/actions/runs/40326118711) | PASS — HTTP 200 |
 | `profile/weekly-build-log.md` | [https://github.com/uzme/biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | PASS — HTTP 200 |
-| `profile/weekly-build-log.md` | [https://github.com/uzme/BioLab/actions/runs/39154423401](https://github.com/uzme/BioLab/actions/runs/39154423401) | PASS — HTTP 200 |
+| `profile/weekly-build-log.md` | [https://github.com/uzme/BioLab/actions/runs/39625045035](https://github.com/uzme/BioLab/actions/runs/39625045035) | PASS — HTTP 200 |
 | `profile/weekly-build-log.md` | [https://github.com/uzme/developer-portfolio](https://github.com/uzme/developer-portfolio) | PASS — HTTP 200 |
-| `profile/weekly-build-log.md` | [https://github.com/uzme/developer-portfolio/actions/runs/39261830298](https://github.com/uzme/developer-portfolio/actions/runs/39261830298) | PASS — HTTP 200 |
+| `profile/weekly-build-log.md` | [https://github.com/uzme/developer-portfolio/actions/runs/40329630428](https://github.com/uzme/developer-portfolio/actions/runs/40329630428) | PASS — HTTP 200 |
 | `profile/weekly-build-log.md` | [https://github.com/users/uzme/projects/1](https://github.com/users/uzme/projects/1) | PASS — HTTP 200 |
 | `profile/workflow-health-rollup.md` | [https://github.com/uzme/bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | PASS — HTTP 200 |
-| `profile/workflow-health-rollup.md` | [https://github.com/uzme/bahromjon-portfolio/actions/runs/39954050484](https://github.com/uzme/bahromjon-portfolio/actions/runs/39954050484) | PASS — HTTP 200 |
+| `profile/workflow-health-rollup.md` | [https://github.com/uzme/bahromjon-portfolio/actions/runs/40743481971](https://github.com/uzme/bahromjon-portfolio/actions/runs/40743481971) | PASS — HTTP 200 |
 | `profile/workflow-health-rollup.md` | [https://github.com/uzme/biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | PASS — HTTP 200 |
-| `profile/workflow-health-rollup.md` | [https://github.com/uzme/BioLab/actions/runs/39625045035](https://github.com/uzme/BioLab/actions/runs/39625045035) | PASS — HTTP 200 |
+| `profile/workflow-health-rollup.md` | [https://github.com/uzme/BioLab/actions/runs/40437050724](https://github.com/uzme/BioLab/actions/runs/40437050724) | PASS — HTTP 200 |
 | `profile/workflow-health-rollup.md` | [https://github.com/uzme/developer-portfolio](https://github.com/uzme/developer-portfolio) | PASS — HTTP 200 |
-| `profile/workflow-health-rollup.md` | [https://github.com/uzme/developer-portfolio/actions/runs/39261830298](https://github.com/uzme/developer-portfolio/actions/runs/39261830298) | PASS — HTTP 200 |
-| `profile/workflow-health-rollup.md` | [https://github.com/uzme/BioLab/actions/runs/39625044338](https://github.com/uzme/BioLab/actions/runs/39625044338) | PASS — HTTP 200 |
-| `profile/workflow-health-rollup.md` | [https://github.com/uzme/BioLab/actions/runs/39154422789](https://github.com/uzme/BioLab/actions/runs/39154422789) | PASS — HTTP 200 |
-| `profile/workflow-health-rollup.md` | [https://github.com/uzme/BioLab/actions/runs/39154423401](https://github.com/uzme/BioLab/actions/runs/39154423401) | PASS — HTTP 200 |
-| `profile/workflow-health-rollup.md` | [https://github.com/uzme/BioLab/actions/runs/39065025700](https://github.com/uzme/BioLab/actions/runs/39065025700) | PASS — HTTP 200 |
-| `profile/workflow-health-rollup.md` | [https://github.com/uzme/BioLab/actions/runs/39022237533](https://github.com/uzme/BioLab/actions/runs/39022237533) | PASS — HTTP 200 |
+| `profile/workflow-health-rollup.md` | [https://github.com/uzme/developer-portfolio/actions/runs/40329630428](https://github.com/uzme/developer-portfolio/actions/runs/40329630428) | PASS — HTTP 200 |

@@ -1,6 +1,6 @@
 # Engineering Dashboard
 
-> Oxirgi yangilanish: 2026-10-30T15:02:57.678Z (UTC).
+> Oxirgi yangilanish: 2026-10-31T14:31:52.151Z (UTC).
 
 Bu dashboard faqat public flagship repository’larning real GitHub signalidan yaratiladi. Private loyiha tafsilotlari, tokenlar va secretlar ko‘rsatilmaydi.
 
@@ -9,14 +9,14 @@ Bu dashboard faqat public flagship repository’larning real GitHub signalidan y
 | Repository | So‘nggi workflow | Holat | Ochiq PR | Dependabot PR |
 |---|---|---|---:|---:|
 | [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [npm_and_yarn in /. for @babel/core, @vitest/mocker, @vitest/mocker, axios, axios, axios, axios, axios, axios, axios, axios, axios, axios, baseline-browser-mapping, body-parser, browserslist, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, esbuild, follow-redirects, follow-redirects, lodash, lodash, lodash, lodash-es, lodash-es, lodash-es, mdast-u...](https://github.com/uzme/bahromjon-portfolio/actions/runs/40743481971) | PASS — success | 9 | 9 |
-| [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [npm_and_yarn in /. for @vitest/mocker - Update #1656893350](https://github.com/uzme/BioLab/actions/runs/40437050724) | CHECK — failure | 8 | 8 |
+| [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [npm_and_yarn in /. for dompurify - Update #1667270355](https://github.com/uzme/BioLab/actions/runs/41172600782) | CHECK — failure | 8 | 8 |
 | [developer-portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/40329630428) | PASS — success | 0 | 0 |
 
 ## Delivery evidence
 
 - Recent public merges since the prior dashboard update: **0**.
 - Recent public releases since the prior dashboard update: **0**.
-- Workflow attention in the last 7 days: **0**. [Detailed rollup](./workflow-health-rollup.md).
+- Workflow attention in the last 7 days: **1**. [Detailed rollup](./workflow-health-rollup.md).
 - Weekly delivery history: [Weekly Build Log](./weekly-build-log.md).
 - Link reliability: [Link Health Report](./link-health-report.md).
 - Monthly delivery history: [Monthly Engineering Snapshot](./monthly-engineering-snapshot.md).

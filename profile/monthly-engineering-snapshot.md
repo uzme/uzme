@@ -1,7 +1,7 @@
-# Monthly Engineering Snapshot — 2026-09
+# Monthly Engineering Snapshot — 2026-10
 
-> Completed month: Sep 1, 2026 — Oct 1, 2026 (UTC).
-> Generated: 2026-10-01T15:23:19.364Z.
+> Completed month: Oct 1, 2026 — Nov 1, 2026 (UTC).
+> Generated: 2026-11-01T14:59:18.169Z.
 
 Bu snapshot faqat public flagship repository’larning real GitHub merge, release va workflow signalini jamlaydi. Private loyiha ma’lumotlari, tokenlar va secretlar kiritilmaydi.
 
@@ -11,15 +11,15 @@ Bu snapshot faqat public flagship repository’larning real GitHub merge, releas
 |---|---:|
 | Public merged PR | 0 |
 | Published release | 0 |
-| Successful meaningful workflow run | 74 |
+| Successful meaningful workflow run | 77 |
 | Failure/cancelled/timed-out workflow run | 9 |
 
 ## Repository breakdown
 
 | Repository | Merged PR | Release | Successful workflow | Attention run | Open PR | Dependabot PR |
 |---|---:|---:|---:|---:|---:|---:|
-| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | 0 | 0 | 23 | 0 | 9 | 9 |
-| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | 0 | 0 | 35 | 9 | 7 | 7 |
+| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | 0 | 0 | 32 | 0 | 9 | 9 |
+| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | 0 | 0 | 29 | 9 | 8 | 8 |
 | [Developer Portfolio](https://github.com/uzme/developer-portfolio) | 0 | 0 | 16 | 0 | 0 | 0 |
 
 ## Shipped evidence
@@ -27,15 +27,15 @@ Bu snapshot faqat public flagship repository’larning real GitHub merge, releas
 
 ## Workflow attention
 
-- **BioLab Interactive Guide** · [npm_and_yarn in /mobile for undici - Update #1598416264](https://github.com/uzme/BioLab/actions/runs/36612838754) · failure
-- **BioLab Interactive Guide** · [npm_and_yarn in /mobile for image-size - Update #1592499739](https://github.com/uzme/BioLab/actions/runs/36202056956) · failure
-- **BioLab Interactive Guide** · [npm_and_yarn in /mobile for image-size - Update #1591353551](https://github.com/uzme/BioLab/actions/runs/36097282865) · failure
-- **BioLab Interactive Guide** · [npm_and_yarn in /mobile for js-yaml - Update #1573293438](https://github.com/uzme/BioLab/actions/runs/34751788386) · failure
-- **BioLab Interactive Guide** · [npm_and_yarn in /mobile for js-yaml - Update #1573148604](https://github.com/uzme/BioLab/actions/runs/34743356052) · failure
-- **BioLab Interactive Guide** · [npm_and_yarn in /. for @vitest/mocker - Update #1565454690](https://github.com/uzme/BioLab/actions/runs/34319827908) · failure
-- **BioLab Interactive Guide** · [npm_and_yarn in /. for baseline-browser-mapping - Update #1565410069](https://github.com/uzme/BioLab/actions/runs/34317778893) · failure
-- **BioLab Interactive Guide** · [npm_and_yarn in /. for qs - Update #1563061419](https://github.com/uzme/BioLab/actions/runs/34183964511) · failure
-- **BioLab Interactive Guide** · [npm_and_yarn in /. for browserslist - Update #1559804161](https://github.com/uzme/BioLab/actions/runs/34064331479) · failure
+- **BioLab Interactive Guide** · [npm_and_yarn in /mobile for undici - Update #1668737319](https://github.com/uzme/BioLab/actions/runs/41250225233) · failure
+- **BioLab Interactive Guide** · [npm_and_yarn in /. for dompurify - Update #1667270355](https://github.com/uzme/BioLab/actions/runs/41172600782) · failure
+- **BioLab Interactive Guide** · [npm_and_yarn in /. for @vitest/mocker - Update #1656893350](https://github.com/uzme/BioLab/actions/runs/40437050724) · failure
+- **BioLab Interactive Guide** · [Dependency Review](https://github.com/uzme/BioLab/actions/runs/39625044338) · failure
+- **BioLab Interactive Guide** · [npm_and_yarn in /mobile for source-map-js - Update #1634564172](https://github.com/uzme/BioLab/actions/runs/39154423401) · failure
+- **BioLab Interactive Guide** · [npm_and_yarn in /. for source-map-js - Update #1634564160](https://github.com/uzme/BioLab/actions/runs/39154422789) · failure
+- **BioLab Interactive Guide** · [npm_and_yarn in /mobile for compression - Update #1633371538](https://github.com/uzme/BioLab/actions/runs/39065025700) · failure
+- **BioLab Interactive Guide** · [npm_and_yarn in /. for proxy-addr - Update #1632817325](https://github.com/uzme/BioLab/actions/runs/39022237533) · failure
+- **BioLab Interactive Guide** · [npm_and_yarn in /mobile for brace-expansion - Update #1605584650](https://github.com/uzme/BioLab/actions/runs/37042754337) · failure
 
 ## Related evidence
 

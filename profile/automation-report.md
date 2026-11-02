@@ -1,6 +1,6 @@
 # GitHub Automation Report
 
-> Oxirgi avtomatik yangilanish: 2026-11-01T15:09:19.886Z (UTC).
+> Oxirgi avtomatik yangilanish: 2026-11-02T18:22:20.606Z (UTC).
 
 Bu fayl GitHub Actions orqali har kuni yangilanadi. Unda faqat public loyiha holati jamlanadi; tokenlar, secretlar yoki shaxsiy ma’lumotlar yozilmaydi.
 
@@ -11,15 +11,15 @@ Bu fayl GitHub Actions orqali har kuni yangilanadi. Unda faqat public loyiha hol
 | Followers | 3 | o‘zgarmadi |
 | Flagship repository starlari | 1 | o‘zgarmadi |
 | Ochiq Dependabot update PR’lari | 17 | o‘zgarmadi |
-| So‘nggi 7 kundagi workflow attention | 2 | real-time public signal |
+| So‘nggi 7 kundagi workflow attention | 0 | real-time public signal |
 
 ## Flagship repository holati
 
 | Repository | So‘nggi workflow | Holat | Stars | Dependabot PR |
 |---|---|---|---:|---:|
-| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [npm_and_yarn in /. for @babel/core, @vitest/mocker, @vitest/mocker, axios, axios, axios, axios, axios, axios, axios, axios, axios, axios, baseline-browser-mapping, body-parser, browserslist, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, esbuild, follow-redirects, follow-redirects, lodash, lodash, lodash, lodash-es, lodash-es, lodash-es, mdast-u...](https://github.com/uzme/bahromjon-portfolio/actions/runs/40743481971) | PASS — success | 0 | 9 |
+| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/41473974020) | PASS — success | 0 | 9 |
 | [biolab-interactive-guide](https://github.com/uzme/biolab-interactive-guide) | [npm_and_yarn in /mobile for undici - Update #1670131480](https://github.com/uzme/BioLab/actions/runs/41302900836) | CHECK — failure | 1 | 8 |
-| [developer-portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/40329630428) | PASS — success | 0 | 0 |
+| [developer-portfolio](https://github.com/uzme/developer-portfolio) | [pip in /. - Update #1670850583](https://github.com/uzme/developer-portfolio/actions/runs/41334934689) | PASS — success | 0 | 0 |
 
 ## Oxirgi yutuqlar
 

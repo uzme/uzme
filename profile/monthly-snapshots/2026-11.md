@@ -1,7 +1,7 @@
 # Monthly Engineering Snapshot — 2026-11
 
 > Month to date: Nov 1, 2026 — Nov 16, 2026 (UTC).
-> Generated: 2026-11-16T04:12:58.117Z.
+> Generated: 2026-11-16T04:14:59.229Z.
 
 Bu snapshot faqat public flagship repository’larning real GitHub merge, release va workflow signalini jamlaydi. Private loyiha ma’lumotlari, tokenlar va secretlar kiritilmaydi.
 
@@ -11,15 +11,15 @@ Bu snapshot faqat public flagship repository’larning real GitHub merge, releas
 |---|---:|
 | Public merged PR | 0 |
 | Published release | 0 |
-| Successful meaningful workflow run | 12 |
+| Successful meaningful workflow run | 16 |
 | Failure/cancelled/timed-out workflow run | 0 |
 
 ## Repository breakdown
 
 | Repository | Merged PR | Release | Successful workflow | Attention run | Open PR | Dependabot PR |
 |---|---:|---:|---:|---:|---:|---:|
-| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | 0 | 0 | 6 | 0 | 9 | 9 |
-| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | 0 | 0 | 6 | 0 | 0 | 0 |
+| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | 0 | 0 | 8 | 0 | 9 | 9 |
+| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | 0 | 0 | 8 | 0 | 0 | 0 |
 
 ## Shipped evidence
 

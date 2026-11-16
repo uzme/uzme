@@ -1,6 +1,6 @@
 # Engineering Dashboard
 
-> Oxirgi yangilanish: 2026-11-16T04:11:51.711Z (UTC).
+> Oxirgi yangilanish: 2026-11-16T04:14:54.158Z (UTC).
 
 Bu dashboard faqat public flagship repository’larning real GitHub signalidan yaratiladi. Private loyiha tafsilotlari, tokenlar va secretlar ko‘rsatilmaydi.
 
@@ -8,8 +8,8 @@ Bu dashboard faqat public flagship repository’larning real GitHub signalidan y
 
 | Repository | So‘nggi workflow | Holat | Ochiq PR | Dependabot PR |
 |---|---|---|---:|---:|
-| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [github_actions in /. - Update #1689868896](https://github.com/uzme/bahromjon-portfolio/actions/runs/42603318713) | PASS — success | 9 | 9 |
-| [developer-portfolio](https://github.com/uzme/developer-portfolio) | [github_actions in /. - Update #1705908624](https://github.com/uzme/developer-portfolio/actions/runs/43744492802) | PASS — success | 0 | 0 |
+| [bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/43802764353) | PASS — success | 9 | 9 |
+| [developer-portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/43802773800) | PASS — success | 0 | 0 |
 
 ## Delivery evidence
 

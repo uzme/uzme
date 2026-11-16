@@ -45,12 +45,14 @@ const since = previousGeneratedAt?.toISOString() || new Date(now.getTime() - 7 *
 
 const profile = await github(`/users/${owner}`);
 const repositories = await Promise.all(flagshipRepositories.map(async (name) => {
-  const [repository, runs, pulls, openPulls, releases] = await Promise.all([
+  const [repository, runs, pulls, openPulls, releases, workflows, readme] = await Promise.all([
     github(`/repos/${owner}/${name}`),
     github(`/repos/${owner}/${name}/actions/runs?per_page=20`),
     github(`/repos/${owner}/${name}/pulls?state=closed&sort=updated&direction=desc&per_page=30`),
     github(`/repos/${owner}/${name}/pulls?state=open&sort=updated&direction=desc&per_page=100`),
     github(`/repos/${owner}/${name}/releases?per_page=20`, { optional: true }),
+    github(`/repos/${owner}/${name}/actions/workflows?per_page=100`, { optional: true }),
+    github(`/repos/${owner}/${name}/contents/README.md`, { optional: true }),
   ]);
 
   const workflowRuns = runs.workflow_runs || [];
@@ -78,6 +80,9 @@ const repositories = await Promise.all(flagshipRepositories.map(async (name) => 
     dependabotPulls: openPulls.filter((pull) => pull.user?.login?.startsWith("dependabot")).length,
     mergedPulls,
     recentReleases,
+    allReleases: releases || [],
+    workflows: (workflows?.workflows || []).map((workflow) => workflow.name),
+    hasReadme: Boolean(readme),
   };
 }));
 
@@ -181,10 +186,130 @@ const digest = shouldNotify
   ? `GitHub Digest: @${owner} — ${metrics.followers} followers, ${metrics.totalStars} stars, ${metrics.totalDependabotPulls} Dependabot PR, ${recentMergedPulls.length} yangi merge, ${recentReleases.length} yangi release. Batafsil: ${reportUrl}`
   : "";
 
+const statusLabel = (conclusion) => conclusion === "success" ? "PASS" : conclusion === "failure" ? "ATTENTION" : (conclusion || "PENDING").toUpperCase();
+const publicUrl = (name) => `https://github.com/${owner}/${name}`;
+const latestRelease = repositories
+  .flatMap((repository) => repository.allReleases.map((release) => ({ repository: repository.name, ...release })))
+  .sort((left, right) => new Date(right.published_at) - new Date(left.published_at));
+const deliveryEvents = [
+  ...recentReleases.map((release) => ({ type: "Release", date: release.published_at, repository: release.repository, title: release.name || release.tag_name, url: release.html_url })),
+  ...recentMergedPulls.map((pull) => ({ type: "Merged PR", date: pull.merged_at, repository: pull.repository, title: `#${pull.number} ${pull.title}`, url: pull.html_url })),
+].sort((left, right) => new Date(right.date) - new Date(left.date));
+const pulseStatus = repositories.every((repository) => repository.conclusion === "success") ? "ALL PUBLIC SYSTEMS HEALTHY" : "REVIEW REQUIRED";
+const scoreFor = (repository) => {
+  const workflowNames = repository.workflows.join(" ").toLowerCase();
+  const checks = [
+    ["CI / build", /ci|build|test|validate/.test(workflowNames)],
+    ["Security", /codeql|security|dependabot|audit/.test(workflowNames)],
+    ["Documentation", repository.hasReadme],
+    ["Release signal", repository.allReleases.length > 0],
+    ["Monitoring", /health|monitor/.test(workflowNames)],
+  ];
+  return { checks, passed: checks.filter(([, passed]) => passed).length, total: checks.length };
+};
+const pulse = [
+  "# Live Engineering Pulse",
+  "",
+  `> Yangilangan: ${metrics.generatedAt} (UTC). Faqat public repository’lar kuzatiladi.`,
+  "",
+  `## ${pulseStatus}`,
+  "",
+  "| Repository | Workflow | CI signal | Security signal | Open PR | Release |",
+  "|---|---|---|---|---:|---|",
+  ...repositories.map((repository) => `| [${repository.name}](${publicUrl(repository.name)}) | [${repository.workflow}](${repository.runUrl}) | ${statusLabel(repository.conclusion)} | ${repository.workflows.some((name) => /codeql|security|dependabot|audit/i.test(name)) ? "ENABLED" : "NOT DETECTED"} | ${repository.openPulls} | ${repository.allReleases[0]?.tag_name || "No release"} |`),
+  "",
+  "Source of truth: GitHub Actions, GitHub Releases va GitHub pull request API javoblari.",
+  "",
+];
+const timelineEvents = deliveryEvents.slice(0, 12);
+const timeline = [
+  "# Building in Public Timeline",
+  "",
+  "> Real merge va release dalillari asosida avtomatik yaratiladi.",
+  "",
+  ...(timelineEvents.length ? timelineEvents.map((event) => `- **${new Date(event.date).toISOString().slice(0, 10)}** · **${event.type}** · ${event.repository} · [${event.title}](${event.url})`) : ["- Hozircha public merge yoki release dalili mavjud emas."]),
+  "",
+  "Private loyihalar va ularga tegishli ichki activity bu timeline’ga kiritilmaydi.",
+  "",
+];
+const projectCards = [
+  "# Public Project Health Cards",
+  "",
+  "> Scorecard mavjud fayl, workflow va release signallaridan hisoblanadi; bu umumiy sifat kafolati emas.",
+  "",
+  ...repositories.map((repository) => {
+    const score = scoreFor(repository);
+    return [
+      `## [${repository.name}](${publicUrl(repository.name)}) — ${score.passed}/${score.total}`,
+      "",
+      ...score.checks.map(([label, passed]) => `- ${passed ? "[x]" : "[ ]"} ${label}`),
+      `- So‘nggi workflow: **${statusLabel(repository.conclusion)}**`,
+      `- Ochiq PR: **${repository.openPulls}** · Dependabot PR: **${repository.dependabotPulls}**`,
+      "",
+    ].join("\n");
+  }),
+  "",
+];
+const releaseRadar = [
+  "# Release Radar",
+  "",
+  "> Public repository’larning GitHub Releases API’dan olingan eng so‘nggi release’lari.",
+  "",
+  "| Repository | Release | Sana | Havola |",
+  "|---|---|---|---|",
+  ...(latestRelease.length ? latestRelease.slice(0, 12).map((release) => `| ${release.repository} | ${release.name || release.tag_name || "Untitled release"} | ${release.published_at?.slice(0, 10) || "—"} | [Open](${release.html_url}) |`) : ["| — | Hozircha release yo‘q | — | — |"]),
+  "",
+];
+const weeklyHighlight = [
+  "# Weekly Highlight",
+  "",
+  `> Yangilangan: ${metrics.generatedAt} (UTC).`,
+  "",
+  deliveryEvents[0]
+    ? `## ${deliveryEvents[0].type}: ${deliveryEvents[0].repository}
+
+[${deliveryEvents[0].title}](${deliveryEvents[0].url})
+
+Bu tanlov oxirgi public delivery daliliga asoslangan; u fake contribution yoki star hisoblamaydi.`
+    : `## Public delivery signal
+
+Hozircha yangi merge yoki release qayd etilmadi. Eng so‘nggi holatni [Live Engineering Pulse](./engineering-pulse.md) orqali ko‘ring.`,
+  "",
+];
+const architecture = [
+  "# Architecture Showcase",
+  "",
+  "> Quyidagi oqim public loyihalar uchun reference architecture sifatida berilgan. U private tizimlarning ichki tafsilotlarini ochmaydi.",
+  "",
+  "```mermaid",
+  "flowchart LR",
+  "  U[User] --> UI[React / Web UI]",
+  "  UI --> CI[CI: typecheck, test, build]",
+  "  UI --> API[Public integration / API boundary]",
+  "  CI --> SEC[CodeQL / dependency checks]",
+  "  SEC --> REL[Reviewed release]",
+  "  REL --> OBS[Health and activity reports]",
+  "```",
+  "",
+  "## Engineering boundaries",
+  "",
+  "- **Delivery:** CI va release workflowlari public repository holatini ko‘rsatadi.",
+  "- **Security:** CodeQL, Dependabot va audit workflowlari kuzatiladi.",
+  "- **Observability:** Live Pulse, Weekly Highlight va health reportlar faqat real GitHub signallaridan foydalanadi.",
+  "- **Privacy:** private repository nomlari, ichki branchlar, tokenlar va secretlar public reportlarga chiqarilmaydi.",
+  "",
+];
+
 await Promise.all([
   writeFile("profile/automation-report.md", report.join("\n"), "utf8"),
   writeFile("profile/engineering-dashboard.md", engineeringDashboard.join("\n"), "utf8"),
   writeFile("profile/achievement-log.md", `${["# GitHub Yutuqlar Jurnali", "", ...achievementLogEntries].join("\n")}\n`, "utf8"),
   writeFile("profile/automation-metrics.json", `${JSON.stringify(metrics, null, 2)}\n`, "utf8"),
   writeFile("profile/telegram-digest.txt", digest ? `${digest}\n` : "", "utf8"),
+  writeFile("profile/engineering-pulse.md", pulse.join("\n"), "utf8"),
+  writeFile("profile/building-in-public.md", timeline.join("\n"), "utf8"),
+  writeFile("profile/project-health-cards.md", projectCards.join("\n"), "utf8"),
+  writeFile("profile/release-radar.md", releaseRadar.join("\n"), "utf8"),
+  writeFile("profile/weekly-highlight.md", weeklyHighlight.join("\n"), "utf8"),
+  writeFile("profile/architecture-showcase.md", architecture.join("\n"), "utf8"),
 ]);

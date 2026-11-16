@@ -16,6 +16,8 @@ I build practical software at the intersection of **artificial intelligence, web
 
 | Workstream | Current milestone | Delivery signal |
 |---|---|---|
+| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | Product evidence, CI/CD, and reviewed releases | [Live status](./profile/engineering-pulse.md) |
+| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | AI products, web applications, and automation toolkit | [Project card](./profile/project-health-cards.md) |
 
 ## Flagship products
 
@@ -35,10 +37,16 @@ I treat delivery as more than a repository push: a feature should have a visible
 
 ## Building in public
 
-The profile now records visible product work through three small, evidence-based documents. The dashboard shows the current public engineering pulse; the weekly log records shipped public work; and Build Notes preserve the reasoning behind durable technical decisions.
+The profile now records visible product work through evidence-based, automatically refreshed documents. The live pulse shows current public health; the timeline records shipped work; and the scorecards, release radar, architecture reference, and weekly highlight make the engineering process easier to inspect.
 
 | Signal | Purpose | Update style |
 |---|---|---|
+| [Live Engineering Pulse](./profile/engineering-pulse.md) | Current CI, security, PR, and release signal for public repositories. | Daily and on demand. |
+| [Building in Public Timeline](./profile/building-in-public.md) | Real public merge and release evidence in chronological form. | Daily and on demand. |
+| [Project Health Cards](./profile/project-health-cards.md) | Transparent documentation, security, monitoring, and release scorecard. | Daily and on demand. |
+| [Release Radar](./profile/release-radar.md) | Latest public GitHub Releases, with direct evidence links. | Daily and on demand. |
+| [Architecture Showcase](./profile/architecture-showcase.md) | Public reference architecture and engineering boundaries. | Maintained with the system. |
+| [Weekly Highlight](./profile/weekly-highlight.md) | The newest public delivery signal, selected automatically. | Daily and on demand. |
 | [Engineering Dashboard](./profile/engineering-dashboard.md) | Current public flagship workflow and pull request health. | Daily automated refresh. |
 | [Weekly Build Log](./profile/weekly-build-log.md) | Public merges, releases, and workflow pulse from the last seven days. | Every Monday and on demand. |
 | [Build Notes](./docs/BUILD_NOTES.md) | Product and engineering decisions with context, evidence, and trade-offs. | Added when a durable decision is made. |

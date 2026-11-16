@@ -11,8 +11,8 @@ Joriy health jadvali har repository’ning eng so‘nggi mazmunli workflow holat
 
 | Repository | Latest meaningful workflow | Current status | Recent attention |
 |---|---|---|---:|
-| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/43802764353) | PASS | 0 |
-| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/43802773800) | PASS | 0 |
+| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/43900991904) | PASS | 0 |
+| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/43903680157) | PASS | 0 |
 
 ## Attention detail
 

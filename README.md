@@ -102,6 +102,10 @@ The public flagship repositories use CI, CodeQL, dependency review or audit wher
   <img src="https://raw.githubusercontent.com/uzme/uzme/output/github-contribution-grid-snake.svg" width="96%" alt="GitHub contribution snake animation" />
 </p>
 
+<p align="center">
+  <img src="./assets/heartbeat.gif" width="96%" alt="Looping heartbeat and ECG animation — building in public" />
+</p>
+
 ## Development principles
 
 I value **useful products over unnecessary complexity**, secure handling of credentials, readable code, documented decisions, and interfaces that remain understandable for real users.

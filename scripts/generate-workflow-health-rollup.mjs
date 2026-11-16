@@ -3,8 +3,8 @@ import { writeFile } from "node:fs/promises";
 const owner = process.env.GITHUB_REPOSITORY_OWNER || "uzme";
 const token = process.env.GITHUB_TOKEN;
 const flagshipRepositories = [
+  // Public-only scope: private projects are never queried from the public profile workflow.
   { name: "bahromjon-portfolio", label: "Bahromjon Portfolio" },
-  { name: "biolab-interactive-guide", label: "BioLab Interactive Guide" },
   { name: "developer-portfolio", label: "Developer Portfolio" },
 ];
 const attentionConclusions = new Set(["failure", "cancelled", "timed_out"]);

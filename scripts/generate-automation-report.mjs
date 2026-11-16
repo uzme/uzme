@@ -3,8 +3,8 @@ import { readFile, writeFile } from "node:fs/promises";
 const owner = process.env.GITHUB_REPOSITORY_OWNER || "uzme";
 const token = process.env.GITHUB_TOKEN;
 const flagshipRepositories = [
+  // Public-only scope: private projects are intentionally excluded.
   "bahromjon-portfolio",
-  "biolab-interactive-guide",
   "developer-portfolio",
 ];
 const reportUrl = `https://github.com/${owner}/${owner}/blob/main/profile/automation-report.md`;

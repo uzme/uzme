@@ -1,7 +1,7 @@
 # Weekly Build Log
 
-> Reporting window: Oct 26, 2026 — Nov 2, 2026 (UTC).
-> Generated: 2026-11-02T18:50:11.959Z.
+> Reporting window: Nov 9, 2026 — Nov 16, 2026 (UTC).
+> Generated: 2026-11-16T04:11:45.787Z.
 
 Bu jurnal faqat public flagship repository’lardagi real merge, release va workflow holatlaridan avtomatik yaratiladi. Private loyiha ma’lumotlari, tokenlar va secretlar kiritilmaydi.
 
@@ -13,9 +13,8 @@ Bu jurnal faqat public flagship repository’lardagi real merge, release va work
 
 | Repository | So‘nggi workflow | Holat |
 |---|---|---|
-| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/41473974020) | PASS — success |
-| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | [npm_and_yarn in /mobile for undici - Update #1670131480](https://github.com/uzme/BioLab/actions/runs/41302900836) | ATTENTION — failure |
-| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | [pip in /. - Update #1670850583](https://github.com/uzme/developer-portfolio/actions/runs/41334934689) | PASS — success |
+| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | [github_actions in /. - Update #1689868896](https://github.com/uzme/bahromjon-portfolio/actions/runs/42603318713) | PASS — success |
+| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | [github_actions in /. - Update #1705908624](https://github.com/uzme/developer-portfolio/actions/runs/43744492802) | PASS — success |
 
 ## Next product direction
 

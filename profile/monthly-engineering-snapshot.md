@@ -1,7 +1,7 @@
-# Monthly Engineering Snapshot — 2026-10
+# Monthly Engineering Snapshot — 2026-11
 
-> Completed month: Oct 1, 2026 — Nov 1, 2026 (UTC).
-> Generated: 2026-11-01T14:59:18.169Z.
+> Month to date: Nov 1, 2026 — Nov 16, 2026 (UTC).
+> Generated: 2026-11-16T04:12:58.117Z.
 
 Bu snapshot faqat public flagship repository’larning real GitHub merge, release va workflow signalini jamlaydi. Private loyiha ma’lumotlari, tokenlar va secretlar kiritilmaydi.
 
@@ -11,31 +11,22 @@ Bu snapshot faqat public flagship repository’larning real GitHub merge, releas
 |---|---:|
 | Public merged PR | 0 |
 | Published release | 0 |
-| Successful meaningful workflow run | 77 |
-| Failure/cancelled/timed-out workflow run | 9 |
+| Successful meaningful workflow run | 12 |
+| Failure/cancelled/timed-out workflow run | 0 |
 
 ## Repository breakdown
 
 | Repository | Merged PR | Release | Successful workflow | Attention run | Open PR | Dependabot PR |
 |---|---:|---:|---:|---:|---:|---:|
-| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | 0 | 0 | 32 | 0 | 9 | 9 |
-| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | 0 | 0 | 29 | 9 | 8 | 8 |
-| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | 0 | 0 | 16 | 0 | 0 | 0 |
+| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | 0 | 0 | 6 | 0 | 9 | 9 |
+| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | 0 | 0 | 6 | 0 | 0 | 0 |
 
 ## Shipped evidence
 
 
 ## Workflow attention
 
-- **BioLab Interactive Guide** · [npm_and_yarn in /mobile for undici - Update #1668737319](https://github.com/uzme/BioLab/actions/runs/41250225233) · failure
-- **BioLab Interactive Guide** · [npm_and_yarn in /. for dompurify - Update #1667270355](https://github.com/uzme/BioLab/actions/runs/41172600782) · failure
-- **BioLab Interactive Guide** · [npm_and_yarn in /. for @vitest/mocker - Update #1656893350](https://github.com/uzme/BioLab/actions/runs/40437050724) · failure
-- **BioLab Interactive Guide** · [Dependency Review](https://github.com/uzme/BioLab/actions/runs/39625044338) · failure
-- **BioLab Interactive Guide** · [npm_and_yarn in /mobile for source-map-js - Update #1634564172](https://github.com/uzme/BioLab/actions/runs/39154423401) · failure
-- **BioLab Interactive Guide** · [npm_and_yarn in /. for source-map-js - Update #1634564160](https://github.com/uzme/BioLab/actions/runs/39154422789) · failure
-- **BioLab Interactive Guide** · [npm_and_yarn in /mobile for compression - Update #1633371538](https://github.com/uzme/BioLab/actions/runs/39065025700) · failure
-- **BioLab Interactive Guide** · [npm_and_yarn in /. for proxy-addr - Update #1632817325](https://github.com/uzme/BioLab/actions/runs/39022237533) · failure
-- **BioLab Interactive Guide** · [npm_and_yarn in /mobile for brace-expansion - Update #1605584650](https://github.com/uzme/BioLab/actions/runs/37042754337) · failure
+- Bu davrda meaningful failure, cancelled yoki timed-out workflow run qayd etilmadi.
 
 ## Related evidence
 

@@ -1,7 +1,7 @@
 # Workflow Health Rollup
 
-> Window: Nov 1, 2026 — Nov 8, 2026 (UTC).
-> Status: **ATTENTION** — 1 meaningful failure/cancelled/timed-out run in the last 7 days.
+> Window: Nov 9, 2026 — Nov 16, 2026 (UTC).
+> Status: **PASS** — 0 meaningful failure/cancelled/timed-out run in the last 7 days.
 
 Bu rollup faqat public flagship repository’lardagi GitHub Actions runlarini o‘qiydi. Notification event filteri sabab `skipped` bo‘lgan runlar health signal hisoblanmaydi.
 
@@ -11,10 +11,9 @@ Joriy health jadvali har repository’ning eng so‘nggi mazmunli workflow holat
 
 | Repository | Latest meaningful workflow | Current status | Recent attention |
 |---|---|---|---:|
-| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | [npm_and_yarn in /. for @babel/core, @vitest/mocker, @vitest/mocker, axios, axios, axios, axios, axios, axios, axios, axios, axios, axios, baseline-browser-mapping, body-parser, browserslist, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, dompurify, esbuild, follow-redirects, follow-redirects, lodash, lodash, lodash, lodash-es, lodash-es, lodash-...](https://github.com/uzme/bahromjon-portfolio/actions/runs/41552243763) | PASS | 0 |
-| [BioLab Interactive Guide](https://github.com/uzme/biolab-interactive-guide) | [npm_and_yarn in /. for postcss-selector-parser - Update #1680001732](https://github.com/uzme/BioLab/actions/runs/41793022893) | failure | 1 |
-| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | [pip in /. - Update #1670850583](https://github.com/uzme/developer-portfolio/actions/runs/41334934689) | PASS | 0 |
+| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | [github_actions in /. - Update #1689868896](https://github.com/uzme/bahromjon-portfolio/actions/runs/42603318713) | PASS | 0 |
+| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | [github_actions in /. - Update #1705908624](https://github.com/uzme/developer-portfolio/actions/runs/43744492802) | PASS | 0 |
 
 ## Attention detail
 
-- **BioLab Interactive Guide** · [npm_and_yarn in /. for postcss-selector-parser - Update #1680001732](https://github.com/uzme/BioLab/actions/runs/41793022893) · failure · Nov 4, 2026
+- So‘nggi 7 kunda meaningful workflow failure, cancelled yoki timed-out run qayd etilmadi.

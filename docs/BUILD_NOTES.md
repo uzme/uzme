@@ -26,6 +26,6 @@ Har muhim qarorda sana, context, qaror, dalil va trade-off qayd etiladi. Kichik 
 
 **Decision:** Mavjud GitHub Actions automationi bilan public flagship repository’lardan Weekly Build Log va Engineering Dashboard yaratish, muhim qarorlarni shu hujjatda saqlash tanlandi.
 
-**Evidence:** Public Portfolio, BioLab va Developer Portfolio workflowlari; [Developer Roadmap](https://github.com/users/uzme/projects/1); profil repository’dagi generated Markdown fayllari.
+**Evidence:** Bahromjon Portfolio va Developer Portfolio workflowlari; [Developer Roadmap](https://github.com/users/uzme/projects/1); profil repository’dagi generated Markdown fayllari.
 
 **Trade-off:** Alohida interaktiv dashboard va qo‘shimcha hosting ishlatilmadi. Buning evaziga profil soddaroq, arzonroq va GitHub ichida boshqariladigan bo‘lib qoladi.

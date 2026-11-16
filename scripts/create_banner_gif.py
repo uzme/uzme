@@ -76,15 +76,15 @@ def build_frame(index: int) -> Image.Image:
         draw_text(draw, (px + 16, 290), label, (184, 255, 237), 10, True)
         px += width + 12
 
-    # BioLab status panel.
+    # Public delivery status panel.
     draw.rounded_rectangle((930, 46, 1216, 262), radius=20, fill=(3, 31, 43, 210), outline=(138, 232, 210, 90), width=1)
-    draw_text(draw, (954, 68), 'BIO.LAB / STATUS', (138, 232, 210), 11, True)
+    draw_text(draw, (954, 68), 'DELIVERY / STATUS', (138, 232, 210), 11, True)
     pulse = 145 + int(70 * (1 + __import__('math').sin(index / 3)) / 2)
     draw.ellipse((1168, 68, 1178, 78), fill=(104, 224, 194, pulse))
-    draw_text(draw, (954, 101), '100', (242, 255, 251), 31, True)
-    draw_text(draw, (954, 139), 'DEVICES', (143, 183, 186), 11, True)
-    draw_text(draw, (1072, 101), '16', (242, 255, 251), 31, True)
-    draw_text(draw, (1072, 139), 'SOP STEPS', (143, 183, 186), 11, True)
+    draw_text(draw, (954, 101), '2', (242, 255, 251), 31, True)
+    draw_text(draw, (954, 139), 'PUBLIC PRODUCTS', (143, 183, 186), 11, True)
+    draw_text(draw, (1072, 101), '6', (242, 255, 251), 31, True)
+    draw_text(draw, (1072, 139), 'PUBLIC REPOS', (143, 183, 186), 11, True)
     draw.line((954, 166, 1192, 166), fill=(138, 232, 210, 52), width=1)
     draw_text(draw, (954, 188), 'SYSTEMS ONLINE', (183, 247, 232), 12, True)
     draw_text(draw, (954, 213), 'AI PRODUCTS', (143, 183, 186), 11)

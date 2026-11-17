@@ -1,6 +1,6 @@
 # GitHub Automation Report
 
-> Oxirgi avtomatik yangilanish: 2026-11-16T18:32:59.625Z (UTC).
+> Oxirgi avtomatik yangilanish: 2026-11-17T17:37:50.016Z (UTC).
 
 Bu fayl GitHub Actions orqali har kuni yangilanadi. Unda faqat public loyiha holati jamlanadi; tokenlar, secretlar yoki shaxsiy ma’lumotlar yozilmaydi.
 

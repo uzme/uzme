@@ -1,6 +1,6 @@
 # Weekly Highlight
 
-> Yangilangan: 2026-11-19T17:23:11.810Z (UTC).
+> Yangilangan: 2026-11-20T16:57:43.268Z (UTC).
 
 ## Public delivery signal
 

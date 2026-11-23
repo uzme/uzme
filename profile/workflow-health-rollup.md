@@ -1,6 +1,6 @@
 # Workflow Health Rollup
 
-> Window: Nov 15, 2026 — Nov 22, 2026 (UTC).
+> Window: Nov 16, 2026 — Nov 23, 2026 (UTC).
 > Status: **PASS** — 0 meaningful failure/cancelled/timed-out run in the last 7 days.
 
 Bu rollup faqat public flagship repository’lardagi GitHub Actions runlarini o‘qiydi. Notification event filteri sabab `skipped` bo‘lgan runlar health signal hisoblanmaydi.
@@ -11,8 +11,8 @@ Joriy health jadvali har repository’ning eng so‘nggi mazmunli workflow holat
 
 | Repository | Latest meaningful workflow | Current status | Recent attention |
 |---|---|---|---:|
-| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/43900991904) | PASS | 0 |
-| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/43903680157) | PASS | 0 |
+| [Bahromjon Portfolio](https://github.com/uzme/bahromjon-portfolio) | [Repository Health Monitoring](https://github.com/uzme/bahromjon-portfolio/actions/runs/45236332847) | PASS | 0 |
+| [Developer Portfolio](https://github.com/uzme/developer-portfolio) | [Repository Health Monitoring](https://github.com/uzme/developer-portfolio/actions/runs/45238867221) | PASS | 0 |
 
 ## Attention detail
 

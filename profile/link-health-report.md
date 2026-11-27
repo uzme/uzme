@@ -1,7 +1,7 @@
 # Link Health Report
 
-> Generated: 2026-11-20T16:17:27.174Z (UTC).
-> Status: **PASS** — 114/114 links confirmed healthy; 2 remote link requires a later retry.
+> Generated: 2026-11-27T17:35:32.698Z (UTC).
+> Status: **PASS** — 114/114 links confirmed healthy; 1 remote link requires a later retry.
 
 Bu report README, `docs/` va `profile/` ichidagi Markdown havolalarini tekshiradi. Private ma’lumot, token yoki autentifikatsiya qilingan endpointlar tekshirilmaydi.
 
@@ -31,7 +31,7 @@ Bu report README, `docs/` va `profile/` ichidagi Markdown havolalarini tekshirad
 | `README.md` | [./profile/workflow-health-rollup.md](./profile/workflow-health-rollup.md) | PASS — Local file exists |
 | `README.md` | [./profile/monthly-engineering-snapshot.md](./profile/monthly-engineering-snapshot.md) | PASS — Local file exists |
 | `README.md` | [https://t.me/MengliyevBahrom](https://t.me/MengliyevBahrom) | PASS — HTTP 200 |
-| `README.md` | [https://www.instagram.com/Mengliyev__Bahrom/](https://www.instagram.com/Mengliyev__Bahrom/) | UNVERIFIED — HTTP 429 — remote response is temporary or access-limited |
+| `README.md` | [https://www.instagram.com/Mengliyev__Bahrom/](https://www.instagram.com/Mengliyev__Bahrom/) | PASS — HTTP 200 |
 | `README.md` | [https://x.com/BioUZB](https://x.com/BioUZB) | UNVERIFIED — HTTP 403 — remote response is temporary or access-limited |
 | `docs/BUILD_NOTES.md` | [https://github.com/users/uzme/projects/1](https://github.com/users/uzme/projects/1) | PASS — HTTP 200 |
 | `docs/PROFILE_ACTIVITY_SYSTEM.md` | [../profile/engineering-dashboard.md](../profile/engineering-dashboard.md) | PASS — Local file exists |
@@ -42,22 +42,22 @@ Bu report README, `docs/` va `profile/` ichidagi Markdown havolalarini tekshirad
 | `docs/PROFILE_RELIABILITY_ACTIONS.md` | [../profile/workflow-health-rollup.md](../profile/workflow-health-rollup.md) | PASS — Local file exists |
 | `docs/PROFILE_RELIABILITY_ACTIONS.md` | [../profile/monthly-engineering-snapshot.md](../profile/monthly-engineering-snapshot.md) | PASS — Local file exists |
 | `profile/automation-report.md` | [https://github.com/uzme/bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | PASS — HTTP 200 |
-| `profile/automation-report.md` | [https://github.com/uzme/bahromjon-portfolio/actions/runs/43900991904](https://github.com/uzme/bahromjon-portfolio/actions/runs/43900991904) | PASS — HTTP 200 |
+| `profile/automation-report.md` | [https://github.com/uzme/bahromjon-portfolio/actions/runs/45236332847](https://github.com/uzme/bahromjon-portfolio/actions/runs/45236332847) | PASS — HTTP 200 |
 | `profile/automation-report.md` | [https://github.com/uzme/developer-portfolio](https://github.com/uzme/developer-portfolio) | PASS — HTTP 200 |
-| `profile/automation-report.md` | [https://github.com/uzme/developer-portfolio/actions/runs/43903680157](https://github.com/uzme/developer-portfolio/actions/runs/43903680157) | PASS — HTTP 200 |
+| `profile/automation-report.md` | [https://github.com/uzme/developer-portfolio/actions/runs/45238867221](https://github.com/uzme/developer-portfolio/actions/runs/45238867221) | PASS — HTTP 200 |
 | `profile/engineering-dashboard.md` | [https://github.com/uzme/bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | PASS — HTTP 200 |
-| `profile/engineering-dashboard.md` | [https://github.com/uzme/bahromjon-portfolio/actions/runs/43900991904](https://github.com/uzme/bahromjon-portfolio/actions/runs/43900991904) | PASS — HTTP 200 |
+| `profile/engineering-dashboard.md` | [https://github.com/uzme/bahromjon-portfolio/actions/runs/45236332847](https://github.com/uzme/bahromjon-portfolio/actions/runs/45236332847) | PASS — HTTP 200 |
 | `profile/engineering-dashboard.md` | [https://github.com/uzme/developer-portfolio](https://github.com/uzme/developer-portfolio) | PASS — HTTP 200 |
-| `profile/engineering-dashboard.md` | [https://github.com/uzme/developer-portfolio/actions/runs/43903680157](https://github.com/uzme/developer-portfolio/actions/runs/43903680157) | PASS — HTTP 200 |
+| `profile/engineering-dashboard.md` | [https://github.com/uzme/developer-portfolio/actions/runs/45238867221](https://github.com/uzme/developer-portfolio/actions/runs/45238867221) | PASS — HTTP 200 |
 | `profile/engineering-dashboard.md` | [./workflow-health-rollup.md](./workflow-health-rollup.md) | PASS — Local file exists |
 | `profile/engineering-dashboard.md` | [./weekly-build-log.md](./weekly-build-log.md) | PASS — Local file exists |
 | `profile/engineering-dashboard.md` | [./link-health-report.md](./link-health-report.md) | PASS — Local file exists |
 | `profile/engineering-dashboard.md` | [./monthly-engineering-snapshot.md](./monthly-engineering-snapshot.md) | PASS — Local file exists |
 | `profile/engineering-dashboard.md` | [https://github.com/users/uzme/projects/1](https://github.com/users/uzme/projects/1) | PASS — HTTP 200 |
 | `profile/engineering-pulse.md` | [https://github.com/uzme/bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | PASS — HTTP 200 |
-| `profile/engineering-pulse.md` | [https://github.com/uzme/bahromjon-portfolio/actions/runs/43900991904](https://github.com/uzme/bahromjon-portfolio/actions/runs/43900991904) | PASS — HTTP 200 |
+| `profile/engineering-pulse.md` | [https://github.com/uzme/bahromjon-portfolio/actions/runs/45236332847](https://github.com/uzme/bahromjon-portfolio/actions/runs/45236332847) | PASS — HTTP 200 |
 | `profile/engineering-pulse.md` | [https://github.com/uzme/developer-portfolio](https://github.com/uzme/developer-portfolio) | PASS — HTTP 200 |
-| `profile/engineering-pulse.md` | [https://github.com/uzme/developer-portfolio/actions/runs/43903680157](https://github.com/uzme/developer-portfolio/actions/runs/43903680157) | PASS — HTTP 200 |
+| `profile/engineering-pulse.md` | [https://github.com/uzme/developer-portfolio/actions/runs/45238867221](https://github.com/uzme/developer-portfolio/actions/runs/45238867221) | PASS — HTTP 200 |
 | `profile/monthly-engineering-snapshot.md` | [https://github.com/uzme/bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | PASS — HTTP 200 |
 | `profile/monthly-engineering-snapshot.md` | [https://github.com/uzme/developer-portfolio](https://github.com/uzme/developer-portfolio) | PASS — HTTP 200 |
 | `profile/monthly-engineering-snapshot.md` | [./workflow-health-rollup.md](./workflow-health-rollup.md) | PASS — Local file exists |
@@ -114,12 +114,12 @@ Bu report README, `docs/` va `profile/` ichidagi Markdown havolalarini tekshirad
 | `profile/project-health-cards.md` | [https://github.com/uzme/developer-portfolio](https://github.com/uzme/developer-portfolio) | PASS — HTTP 200 |
 | `profile/release-radar.md` | [https://github.com/uzme/bahromjon-portfolio/releases/tag/v1.0.0](https://github.com/uzme/bahromjon-portfolio/releases/tag/v1.0.0) | PASS — HTTP 200 |
 | `profile/weekly-build-log.md` | [https://github.com/uzme/bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | PASS — HTTP 200 |
-| `profile/weekly-build-log.md` | [https://github.com/uzme/bahromjon-portfolio/actions/runs/43900991904](https://github.com/uzme/bahromjon-portfolio/actions/runs/43900991904) | PASS — HTTP 200 |
+| `profile/weekly-build-log.md` | [https://github.com/uzme/bahromjon-portfolio/actions/runs/45236332847](https://github.com/uzme/bahromjon-portfolio/actions/runs/45236332847) | PASS — HTTP 200 |
 | `profile/weekly-build-log.md` | [https://github.com/uzme/developer-portfolio](https://github.com/uzme/developer-portfolio) | PASS — HTTP 200 |
-| `profile/weekly-build-log.md` | [https://github.com/uzme/developer-portfolio/actions/runs/43903680157](https://github.com/uzme/developer-portfolio/actions/runs/43903680157) | PASS — HTTP 200 |
+| `profile/weekly-build-log.md` | [https://github.com/uzme/developer-portfolio/actions/runs/45238867221](https://github.com/uzme/developer-portfolio/actions/runs/45238867221) | PASS — HTTP 200 |
 | `profile/weekly-build-log.md` | [https://github.com/users/uzme/projects/1](https://github.com/users/uzme/projects/1) | PASS — HTTP 200 |
 | `profile/weekly-highlight.md` | [./engineering-pulse.md](./engineering-pulse.md) | PASS — Local file exists |
 | `profile/workflow-health-rollup.md` | [https://github.com/uzme/bahromjon-portfolio](https://github.com/uzme/bahromjon-portfolio) | PASS — HTTP 200 |
-| `profile/workflow-health-rollup.md` | [https://github.com/uzme/bahromjon-portfolio/actions/runs/43900991904](https://github.com/uzme/bahromjon-portfolio/actions/runs/43900991904) | PASS — HTTP 200 |
+| `profile/workflow-health-rollup.md` | [https://github.com/uzme/bahromjon-portfolio/actions/runs/45236332847](https://github.com/uzme/bahromjon-portfolio/actions/runs/45236332847) | PASS — HTTP 200 |
 | `profile/workflow-health-rollup.md` | [https://github.com/uzme/developer-portfolio](https://github.com/uzme/developer-portfolio) | PASS — HTTP 200 |
-| `profile/workflow-health-rollup.md` | [https://github.com/uzme/developer-portfolio/actions/runs/43903680157](https://github.com/uzme/developer-portfolio/actions/runs/43903680157) | PASS — HTTP 200 |
+| `profile/workflow-health-rollup.md` | [https://github.com/uzme/developer-portfolio/actions/runs/45238867221](https://github.com/uzme/developer-portfolio/actions/runs/45238867221) | PASS — HTTP 200 |
